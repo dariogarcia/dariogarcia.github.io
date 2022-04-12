@@ -11,8 +11,10 @@ site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Shooting Ideas # add your name
-author-img: david-freeman.jpg # add your photo
-about-author: "Compendium of random creative projects.\nFor the fun of it."
+author-img: trust.jpg # add your photo
+about-author: |
+    Compendium of random creative projects.
+    For the fun of it.
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: # add your Github handle
