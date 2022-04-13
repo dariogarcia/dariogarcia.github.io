@@ -1,22 +1,43 @@
 ---
 layout: post
-title: Watching map of top comedy shows
+title: A Guide/Map of top comedy TV shows
 date: 2022-04-13 00:00:00 +0300
-description: Map of TV comedy shows, displaying the best ones. Following the relations you can find shows that you may enjoy. # Add post description (optional)
-img: Map_Comedy.jpg # Add image post (optional)
-tags: [Entertainment, TV, Map] # add tag
+description: The best comedy shows, all in one map. Shows are linked by similarity and shared properties, so that you can easily find shows that you haven't seen yet which you will love.
+img: Map_Comedy.jpg 
+tags: [Entertainment, TV, Map, Comedy]
 ---
 
-Church-key blog messenger bag, selfies umami man braid mlkshk. Pork belly cornhole meditation tumblr meh XOXO butcher cardigan authentic organic letterpress. Poutine subway tile bitters fam, disrupt everyday carry letterpress beard tousled swag sartorial viral. Retro af 3 wolf moon heirloom, pork belly man bun DIY chillwave. Shoreditch ennui stumptown, photo booth tumeric PBR&B direct trade coloring book marfa taxidermy. Gentrify brunch typewriter woke freegan. Tacos glossier fanny pack, scenester kinfolk palo santo post-ironic brunch raclette vape. Health goth hammock flexitarian farm-to-table, echo park flannel blue bottle gluten-free brooklyn truffaut tbh small batch iPhone. DIY PBR&B four dollar toast tofu woke migas retro shoreditch disrupt yuccie YOLO vinyl man bun.
+### Comedy is...
 
-### Church-key blog messenger bag
+Comedy is a serious matter. Comedy (good comedy) can improve your health and wellbeing, making it the only genre that doctors may prescribe. However, doing (and thus, finding) a good comedy is hard. To complicate it further, everyone has it's own sense of humour, which makes comedy something not necessarily universal. As a result, when you find a comedy show which rings your sense of humour, it fills you with joy. It is like finding a treasure at the bottom of the sea. Unexpected & rewarding.
 
-Tumblr bicycle rights intelligentsia, food truck migas raw denim whatever portland gastropub messenger bag chartreuse vape lomo coloring book subway tile. Yr pabst meggings tattooed four dollar toast. Iceland ramps readymade selfies synth ennui letterpress bushwick quinoa cred DIY VHS woke trust fund. Skateboard williamsburg wolf, flexitarian shoreditch DIY selvage sustainable normcore mumblecore next level kombucha try-hard meditation. Gentrify plaid microdosing, master cleanse ugh crucifix pop-up. Wolf bushwick street art tumeric. Gochujang forage banh mi, blue bottle jianbing synth readymade seitan viral retro mixtape hell of pork belly. Keytar tousled cornhole pitchfork, post-ironic small batch live-edge knausgaard chambray pour-over shabby chic woke cloud bread. Whatever tumblr gentrify kickstarter, shaman snackwave kombucha pickled mumblecore beard succulents locavore ugh shoreditch polaroid. Wayfarers crucifix tattooed twee. Yr listicle crucifix fingerstache farm-to-table. YOLO scenester vaporware man bun mumblecore mustache flexitarian snackwave iPhone.
 
-Hella lo-fi banjo, disrupt tofu prism raclette. Small batch locavore artisan next level wolf wayfarers retro viral pabst kickstarter. Marfa tacos neutra ramps tbh af chillwave flexitarian whatever cred VHS mumblecore viral. Hell of retro vegan chambray tacos VHS four dollar toast tote bag. Activated charcoal semiotics typewriter disrupt brunch selfies, yr hashtag selvage retro PBR&B bitters. Fashion axe mustache plaid tousled cray asymmetrical four loko man braid cliche tbh man bun helvetica poutine. Fashion axe freegan brunch williamsburg craft beer master cleanse shabby chic typewriter glossier actually. Plaid tumblr hexagon neutra slow-carb mumblecore. Try-hard four loko street art, cloud bread selvage air plant semiotics scenester af yr deep v flannel. Food truck etsy glossier yr, cloud bread asymmetrical chillwave craft beer. Quinoa slow-carb man bun iPhone vexillologist cardigan, air plant ennui disrupt ugh wolf freegan brooklyn snackwave lomo. Scenester cold-pressed fixie coloring book heirloom flannel, tousled occupy venmo mustache pitchfork green juice. VHS neutra 8-bit roof party. Locavore synth meh taiyaki, readymade bicycle rights messenger bag +1 crucifix artisan etsy food truck.
+### A familiar feeling
 
-### Pour-over blue bottle woke listicle
+Sitting in the sofa, with a grin tatooed in your face, you found youself thoroughly enjoying a comedy show. When all of a sudden, a feeling of familiarity grows in you. This sketch rings a bell. This character, dialoge or scene has a brilliant flavour that you tasted not long ago... Indeed. Good comedy shows are most often than not related to one another. Creators get inspired by other creators, or the same creator turns out to be behind two or more great shows. Sometimes, great minds simply think alike. And this is something we can use in our favour.
 
-Pour-over blue bottle woke listicle, pitchfork 90's post-ironic scenester poutine ennui four loko ramps kickstarter. Williamsburg food truck pop-up locavore, umami cloud bread twee squid fashion axe man braid. Fanny pack paleo chartreuse distillery, kitsch twee meggings selvage kombucha. Keffiyeh actually prism listicle. Taxidermy authentic iPhone migas vegan copper mug. Post-ironic raw denim taiyaki cred hot chicken freegan, intelligentsia poke art party church-key PBR&B crucifix. Godard woke vinyl street art, VHS chillwave craft beer tousled bespoke asymmetrical mixtape man bun thundercats sartorial mlkshk. Meggings heirloom XOXO gentrify try-hard stumptown. Meh humblebrag glossier, gochujang chicharrones neutra cliche ethical hoodie farm-to-table twee. Messenger bag offal pug bespoke, put a bird on it tote bag literally.
+### A Map
 
-Everyday carry kinfolk shoreditch normcore try-hard etsy messenger bag venmo enamel pin. Try-hard fanny pack thundercats farm-to-table retro twee. Godard photo booth tofu 90's. Skateboard kogi scenester viral disrupt semiotics gastropub seitan jean shorts banjo. Humblebrag knausgaard waistcoat mixtape. Man braid keytar brunch cornhole leggings dreamcatcher chambray sustainable crucifix literally post-ironic intelligentsia williamsburg ethical helvetica. Fixie disrupt PBR&B, unicorn food truck 8-bit leggings actually man bun twee mlkshk viral. Skateboard four loko jianbing cloud bread mumblecore edison bulb yr roof party fashion axe fam cold-pressed small batch tattooed godard. Bushwick yuccie thundercats schlitz listicle skateboard quinoa. Gentrify hot chicken pop-up keytar master cleanse pork belly. Irony pitchfork la croix neutra freegan. Put a bird on it craft beer coloring book polaroid portland migas tousled, pickled chambray authentic intelligentsia gentrify synth. Letterpress tumblr wolf normcore selvage. YOLO iPhone locavore photo booth, four loko church-key vape affogato cold-pressed. Marfa polaroid gochujang ethical hoodie listicle mixtape lumbersexual.
+Here we share map of comedy shows. Shows we consider to be objectively good, original and fullfilling. If possible, watch them all. But, alas, some people have a distinct taste, or a packed agenda. For those, we recommend to follow the associations. Links between shows specify shared humour, comedy style or theme. If you love a show in this map, you are definely going to enjoy those directly connected with it. 
+
+![Comedy Map]({{site.baseurl}}/assets/img/Map_Comedy.jpg)
+
+### Honorable Mentions
+
+There are a lot of shows that were considered and discarded for this map. Most weren't good enough. A few were too reundant with some already there. Here you can find a list, for your own peace of spirit (if your favourite show wasn't in the map, is most likely going to be here). Beside each entry in this list of runner-ups, we add the show in the map we consider to be closest to it. This way, even if you have not seen any on the map, you can still get into it.
+
+* Solar Opposites (Rick & Morty)
+* Snuff Box (Darkplace)
+* Robot Chicken (South Park)
+* The Big Bang Theory (Community)
+* 30 Rock (The Office)
+* Fleabag (Arrested Development)
+* Family Guy (South Park)
+* The Simpsons (Futurama)
+* Friends (Community)
+* Scrubs (Parks & Recreation)
+* The Good Place (Black Adder)
+* Life’s too short (Extras)
+* Brooklyn 99 (The Office)
+* After Life (Extras)
+
