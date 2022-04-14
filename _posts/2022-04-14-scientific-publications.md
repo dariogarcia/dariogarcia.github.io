@@ -1,10 +1,10 @@
 ---
 layout: post
-title: A Guide/Map of top comedy TV shows
-date: 2022-04-13 00:00:00 +0300
-description: The best comedy shows, all in one map. Shows are linked by similarity and shared properties, so that you can easily find shows that you haven't seen yet which you will love.
-img: Map_Comedy.jpg 
-tags: [Science, Organization]
+title: A new standard for science & research
+date: 2022-04-14 00:00:00 +0300
+description: The process by which research gets published is severely flawed. The whole system is based on old principles, and obsolete in the face of new technology. We identify those problems, their solutions, and propose a new platform for science to organize it.
+img: research.jpg 
+tags: [Science, Research, Organization]
 ---
 
 In here we propose a new structure for scientific reviewing, publication and dissemination. To do so, we first identify the main problems in how research works today.
@@ -66,6 +66,7 @@ The previously proposed solution cannot be applied under today's regime of publi
   * Meta-reviews
   * Replication of original research
   * Summarization and dissemination of research
+
 Each of these contributions should be associated with the researcher doing it. Although anonymity is optional, this would be unveiled if a red flag is raised on their work (e.g., prevaricating reviews, false replication report, plagiarism in reviews/summaries/dissemination produced)
 
 ### References
