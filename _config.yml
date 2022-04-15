@@ -14,8 +14,7 @@ author: Shooting Ideas # add your name
 author-img: trust.jpg # add your photo
 about-author: |
     Compendium of random creative projects.
-    For the fun of it.
-    Because sharing & persisting them feels better than the alternative.
+    Because it's super fun to do them, but also because sharing & persisting them feels better than the alternative.
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: # add your Github handle
@@ -26,7 +25,7 @@ social-email: # add your Email address
 discus-identifier: # add your discus identifier
 
 # Tracker
-analytics: # Google Analytics
+# analytics: # Google Analytics
 
 # Build Settings
 markdown: kramdown
