@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Guide/Map of top comedy TV shows
+title: A Guide/Map of Top Comedy series
 date: 2022-04-13 00:00:00 +0300
 description: The best comedy shows, all in one map. Shows are linked by similarity and shared properties, so that you can easily find shows that you haven't seen yet which you will love.
 img: Map_Comedy.jpg 
