@@ -25,7 +25,11 @@ A significant part of today's sciencific research (particularly the one originat
 
 * Scientific Paper Visibility is Unscientific: Papers visibility is directly affected by the impact factor of the journal or conference where it is published. Popular papers appear higher on search engines which results in a rich get richer process that impoverishes science. Journal/Conference impact factors suposedly determine their relevance, and consequently the visibility of published papers. However, impact factors are not a well defined score, and are linked to a given journal/conference, not to the papers themselves. As such, it is useless for evaluating paper quality. At the same time, impact factors are used by institutions to evaluate the contributions of researchers. This leads researchers to pursue publications of those venues instead of producing quality research.
 
-Ok. So these are the problem. Seem like a lot. Let's see if we can find a few solutions.
+* Scientific Authorship & Contribution: Papers today may have from one author, to dozens of them. This dillutes the relevance of each researcher with regards to their own work, and complicates the task of attribution. It is often the case that one or more authors have not read the paper they sign, owning the right to authorship by rank or reputation.
+
+* Limited State-of-the-art: Researchers are responsible for contextualizing their work on previous research, understanding the context and implications of their work. As the number of research works grows, it quickly becomes unfeasible to find, read and integrate every related work. 
+
+Ok, so these are the problem. Seem like a lot. Let's see if we can find a few solutions.
 
 ### Solutions
 
@@ -33,13 +37,18 @@ Ok. So these are the problem. Seem like a lot. Let's see if we can find a few so
 
 * Idoneous Evaluation: For every research contribution there is a community, large or small, with the most knowledge on the topic. That is the community of researchers also working on the same area. These researchers will typically read and assess the relevance of papers in their field when working on their own research. This means the reading effort is already being done by the experts in the field, just not publicly. These experts on the topic are the best possible reviewers of a work, as they are selfishly interested in understanding every aspect of their related work.
 
+
 * Recognized Reviewers: Writing good reviews takes time and effort, but their benefits are huge for science. Good reviewers (e.g., thorough, detailed, well-argued) should be acknowledged by the community, and should get proper recognition and reward.
 
-- Replicability by Default: Contributions which cannot be replicated are of no relevance. Authors should be encouraged to facilitate the replicability of their work. Contributions replicating the work of others should also get proper recognition. The importance and visibility of papers should be directly related to their replicability.
+* Replicability by Default: Contributions which cannot be replicated are of no relevance. Authors should be encouraged to facilitate the replicability of their work. Contributions replicating the work of others should also get proper recognition. The importance and visibility of papers should be directly related to their replicability.
 
-- Perpetual evaluation: Research should be continuously under review. As a result of other people's contributions, research should be improved and extended. Authors should be encouraged to take into account and apply comments or findings made by the community. This would result in more complete contributions which would remain relevant for longer periods.
+* Perpetual evaluation: Research should be continuously under review. As a result of other people's contributions, research should be improved and extended. Authors should be encouraged to take into account and apply comments or findings made by the community. This would result in more complete contributions which would remain relevant for longer periods.
 
 * Objective Paper Visibility: Paper visibility should be based on aspects like overall evaluation, citations, replicability, continued interest, and others. Research should be sortable by any combination of these factors.
+
+* Explicit Author Contribution: Papers should have a limited set of contribution types. For example, original concept (the happy idea needed in many steps of the research project), design & refinement (the continuous planning and reconsideration of research) and implementation (conducting experiments, transforming ideas into reality).
+
+* State-of-the-art Expansion: The creation of the state-of-the-art part of a paper could be done collaboratively. Authors of other works, or conocieurs of other research papers could enhance a new paper by contextualizing it beyond their original authors knowledge. This would provide a much richer background to papers, as well as identify potential side-effects, applications and flaws of a research contribution.
 
 ### A New Platform for Research
 
@@ -59,13 +68,17 @@ The previously proposed solution cannot be applied under today's regime of publi
 
 * Reliable research can only become stablished science after being replicated.
 
+* Each original contribution has a clear set of authors, each with a clear contribution. All impact derived from an original contribution is equally split among authors based on their role.
+
 #### Enhancing Research Contributions
 
-* Beyond original research, a researcher can contribute significantly to science. This includes:
-  * Reviews
-  * Meta-reviews
-  * Replication of original research
-  * Summarization and dissemination of research
+Beyond original research, a researcher can contribute significantly to science. This includes:
+
+* Reviews
+* Meta-reviews
+* State-of-the-art expansion
+* Replication of original research
+* Summarization and dissemination of research
 
 Each of these contributions should be associated with the researcher doing it. Although anonymity is optional, this would be unveiled if a red flag is raised on their work (e.g., prevaricating reviews, false replication report, plagiarism in reviews/summaries/dissemination produced)
 
