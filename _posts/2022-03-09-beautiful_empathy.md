@@ -22,9 +22,11 @@ Really, take a look at the rules. They are ridiculously short.
 
 To test the game properly, we developed a computer version of it using Python and tkinter. Below you can see screenshots of the game in action. This version contains all the functionalities of the final game, but is not polished enough to be distributed. If you would like to try it, or if you are interested in the game in general, contact us.
 
-![Screenshot 1]({{site.baseurl}}/assets/img/be/screenshot1.jpg)
-![Screenshot 2]({{site.baseurl}}/assets/img/be/screenshot2.jpg)
-![Screenshot 3]({{site.baseurl}}/assets/img/be/screenshot3.jpg)
+<img src="assets/img/be/screenshot1.png" alt="drawing" width="200"/>
+
+![Screenshot 1]({{site.baseurl}}/assets/img/be/screenshot1.png)
+![Screenshot 2]({{site.baseurl}}/assets/img/be/screenshot2.png)
+![Screenshot 3]({{site.baseurl}}/assets/img/be/screenshot3.png)
 
 
 ### Gallery
