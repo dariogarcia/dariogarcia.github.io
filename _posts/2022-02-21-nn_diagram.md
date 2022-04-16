@@ -3,7 +3,7 @@ layout: post
 title: Neural Network learning diagram
 date: 2022-02-21 00:00:00 +0300
 description: Simple diagram of how neural networks learn, including data, weights, activations and gradients.
-img: NN_diagram.jpg 
+#img: NN_diagram.jpg 
 tags: [Artificial Intelligence, Neural Network, Diagram, Map]
 ---
 
