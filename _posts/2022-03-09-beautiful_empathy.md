@@ -3,7 +3,7 @@ layout: post
 title: Beautiful Empathy
 date: 2022-02-21 00:00:00 +0300
 description: Beautiful Empathy is a cooperative game which combines aesthetic taste and understanding how others think. It integrates Artificial Intelligence models, and the main outcome is a mosaic created collaboratively.
-#img: be/mosaic2.png 
+#img: mosaic2.png 
 tags: [Game, Artificial Intelligence]
 ---
 
@@ -22,10 +22,13 @@ Really, take a look at the rules. They are ridiculously short.
 
 To test the game properly, we developed a computer version of it using Python and tkinter. Below you can see screenshots of the game in action. This version contains all the functionalities of the final game, but is not polished enough to be distributed. If you would like to try it, or if you are interested in the game in general, contact us.
 
-<img src="assets/img/be/screenshot1.png" alt="drawing" width="200"/>
-
+Screenshot 1
 ![Screenshot 1]({{site.baseurl}}/assets/img/be/screenshot1.png)
+
+Screenshot 2
 ![Screenshot 2]({{site.baseurl}}/assets/img/be/screenshot2.png)
+
+Screenshot 3
 ![Screenshot 3]({{site.baseurl}}/assets/img/be/screenshot3.png)
 
 
@@ -33,7 +36,12 @@ To test the game properly, we developed a computer version of it using Python an
 
 This section hosts several mosaics produced by playing the game.
 
+Mosaic 1
 ![Mosaic sample 1]({{site.baseurl}}/assets/img/be/mosaic1.png)
+
+Mosaic 2
 ![Mosaic sample 2]({{site.baseurl}}/assets/img/be/mosaic2.png)
+
+Mosaic 3
 ![Mosaic sample 3]({{site.baseurl}}/assets/img/be/mosaic3.png)
 
