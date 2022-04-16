@@ -15,7 +15,7 @@ The best way to understand Beautiful Empathy is to read the rules (see below), w
 
 Really, take a look at the rules. They are ridiculously short.
 
-![Rules for Beatiful Empathy]({{site.baseurl}}/assets/docs/be_rules.pdf)
+[Rules for Beatiful Empathy]({{site.baseurl}}/assets/docs/be_rules.pdf)
 
 
 ### Prototype
