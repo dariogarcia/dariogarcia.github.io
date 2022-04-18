@@ -1,4 +1,6 @@
-spell & grammar posts
+nn map, extend a bit
 scientific platform: focus on the platform design
 change fav icon
 change trust image
+
+add attribution https://www.pexels.com
