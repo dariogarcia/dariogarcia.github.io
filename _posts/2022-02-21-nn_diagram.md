@@ -9,7 +9,7 @@ tags: [Artificial Intelligence, Neural Network, Diagram, Map]
 
 The learning process of artificial neural networks is pretty straightforward. Assuming the status of a neural network is represented by a set of weights, the neural net first processes some input data, reacts to that data, computes the error committed, and modifies itself (the set of weights) to reduce the error.
 
-I've talked and taught this so many times, sometimes it feels like it's hiding something else fundamental. I did this simple diagram to illustrate the temporal evolution of a neural net, just in case it was hiding something I missed.
+I've talked and taught this so many times, sometimes it feels like it's hiding something else fundamental. I did this simple diagram to illustrate the temporal evolution of a neural net, since its a representation I had never seen before. Just in case it was hiding something I missed.
 
 * D stands for data. What the neural net learns from.
 * W stands for weights. The internal status of the neural net in a given time.
