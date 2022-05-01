@@ -7,9 +7,9 @@ img: NN_diagram.jpg
 tags: [Artificial Intelligence, Neural Network, Diagram, Map]
 ---
 
-The learning process of artificial neural networks is pretty straightforward. Assuming the status of a neural network is represented by a set of weights, the neural net first processes some input data, reacts to that data, computes the error committed, and modifies itself (the set of weights) to reduce the error.
+The learning process of artificial neural networks can be summarized as follows. Assuming the status of a neural network is represented by a set of trainable weights, the neural net processes some input data samples, reacting to it internally through a set of activations. When the output of the net is reached, the error committed is computed, and an update process takes place, in which the trainable weights are modified with the goal of minimizing the error committed.
 
-I've talked and taught this so many times, sometimes it feels like it's hiding something else fundamental. I did this simple diagram to illustrate the temporal evolution of a neural net, since its a representation I had never seen before. Just in case it was hiding something I missed.
+I've taught this so many times, sometimes it feels strange. Like when you keep repeating a word until you no longer recognize it. At times it feel like it's hiding something else, something fundamental. For my own satisfaction (currently I don't see the point of using this as teaching material) I created a diagram to illustrate the temporal evolution of a neural net. This is a representation I had not seen before, and it could be hiding something.
 
 * D stands for data. What the neural net learns from.
 * W stands for weights. The internal status of the neural net in a given time.
@@ -20,4 +20,6 @@ I've talked and taught this so many times, sometimes it feels like it's hiding s
 
 And that's it. Loss/Objective function, backprop and gradient descent are missing from the diagram, since these are temporally static components. Primas are used to illustrate the temporal change of D and W (in the case of D, accounts for different training samples). Data is painted yellow because its exogenous to the network.
 
-If you find this diagram useful or inspiring, let me know!
+If you find this diagram useful or inspiring, let me know! It was an interesting exercise, but I didn't got any revelation myself...
+
+Cheers

@@ -1,7 +1,4 @@
-apolitic
+boardgame: fill more games, disseminate and ask for contrib., get bgg data
 meritocracy (no parties, referendums contants, etc.)
-nn map, extend a bit
 scientific platform: focus on the platform design
 moon out
-
-add attribution https://www.pexels.com
