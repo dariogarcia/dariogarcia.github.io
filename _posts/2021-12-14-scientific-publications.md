@@ -52,7 +52,33 @@ Ok, so these are the problem. Seem like a lot. Let's see if we can find a few so
 
 ### A New Platform for Research
 
-The previously proposed solution cannot be applied under today's regime of publishers and venues. To organize all proposed solutions, we need to create a platform that includes all relevant actors. 
+The previously proposed solution is hard to implement in today's regime of private publishers and corporative venues. To organize all proposed solutions, we propose a new platform for research, one that includes all relevant actors. However, in the context of science, the main actors are research contributions, not people.
+
+There are two main types of contributions, original and enhancing ones. Additionally, there's authors, who can be attributed with contributions.
+
+#### Original Research Contributions
+
+An original research contribution is one which can be differenciated from the state of the art by itself. A work producing and assessing it's own hypothesis. Each original research contribution has a reliabilty and relevance score.
+
+* Whenever a new research contribution is submitted, it is assigned a baseline of reliability and relevance.
+  * Reliability: Based on author's current reliability. It substracts a percentatge of it per author. This will be returned as reviews come in and take the place for that reliability.
+  * Relevance: Based on cited sources, quality and other metrics, and author self-assessment.
+* Reliability is increased through reviews. Each review submitted provides an increase in reliability, which depends on the reviewer's expertise and confidence, together with the review score.
+* Reliability is not final (marked as confirmed) until the work has been independently replicated and/or reproduced.
+* Relevance is gained by citations.
+* Each original contribution has a clear set of authors, each with a percentual contribution. Certain categories are also attributed to specific authors (writing of manuscript, figures, tables, experimentation, footprint & ethics). All impact derived from an original contribution (reliability and relevance) is split among authors based on their contribution. Reviews can concern a specific part of contribution.
+
+#### Enhancing Research Contributions
+
+Enhancing research contributions are those that are built to make others more complete. Not with a purpose beyond that of improving another research contribution. There are several types of enhancing contributions:
+
+* Reviews
+* Meta-reviews
+* State-of-the-art expansion
+* Replication/Reproduction of original research
+* Summarization and dissemination of research
+
+Each of these contributions has an associated author. Although anonymity is optional, this would be unveiled if a red flag is raised on their work (e.g., prevaricating reviews, false replication report, plagiarism in reviews/summaries/dissemination produced)
 
 #### Authors
 
@@ -62,25 +88,17 @@ The previously proposed solution cannot be applied under today's regime of publi
 
 * Authors should be encouraged to evaluate and take into account the enhancing contributions to their work, using it to improve their own research. Updated versions of original contributions should be released occasionally to meet the standards required by the scientific community and address concerns of special interest.
 
-#### Original Research Contributions
 
-* Original contributions should receive a minimum amount of reviews from recognized reviewers before getting the status of reliable research.
+### The case of Artificial Intelligence
 
-* Reliable research can only become established science after being replicated.
+AI has a set of particularities that deserve to be discussed separately. For research done in this area, we must consider into account issues like model bias (particulary in machine learning). At the moment, there is no incentive for analyzing, rating and reinforcing or deleting bias from trained and released models. As a result, the majority of released models are not safe to use in practice, a feature that is also inherited by all models build on top (a very popular practice known as transfer learning).
 
-* Each original contribution has a clear set of authors, each with a clear contribution. All impact derived from an original contribution is equally split among authors based on their role.
+In order to make the cost of bias worthwhile, we need to demand it and reward it. This must involve all actors involved in research:
 
-#### Enhancing Research Contributions
+* Funding agencies should include non-optional debiasing requirements on all calls made public.
+* Research institutions which target AI models should include structural units focused on bias, to ensure no dangerously biased models or research is released.
+* Publication venues and/or reviewers should demand debiasing proof and effort on all relevant research. Failing yo comply should entail desk reject.
 
-Beyond original research, a researcher can contribute significantly to science. This includes:
-
-* Reviews
-* Meta-reviews
-* State-of-the-art expansion
-* Replication of original research
-* Summarization and dissemination of research
-
-Each of these contributions should be associated with the researcher doing it. Although anonymity is optional, this would be unveiled if a red flag is raised on their work (e.g., prevaricating reviews, false replication report, plagiarism in reviews/summaries/dissemination produced)
 
 ### References
 
