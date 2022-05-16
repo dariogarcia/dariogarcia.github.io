@@ -52,18 +52,16 @@ Ok, so these are the problem. Seem like a lot. Let's see if we can find a few so
 
 ### A New Platform for Research
 
-The previously proposed solution is hard to implement in today's regime of private publishers and corporative venues. To organize all proposed solutions, we propose a new platform for research, one that includes all relevant actors. However, in the context of science, the main actors are research contributions, not people.
-
-There are two main types of contributions, original and enhancing ones. Additionally, there's authors, who can be attributed with contributions.
+The previously proposed solution is hard to implement in today's regime of private publishers and corporative venues. To implement all proposed solutions, we propose a new platform for research. In this system, there are two main types of contributions, original and enhancing ones. Additionally, there's authors, who can be attributed with either type of contributions.
 
 #### Original Research Contributions
 
-An original research contribution is one which can be differenciated from the state of the art by itself. A work producing and assessing it's own hypothesis. Each original research contribution has a reliabilty and relevance score.
-
-* Whenever a new research contribution is submitted, it is assigned a baseline of reliability and relevance.
-  * Reliability: Based on author's current reliability. It substracts a percentatge of it per author. This will be returned as reviews come in and take the place for that reliability.
-  * Relevance: Based on cited sources, quality and other metrics, and author self-assessment.
-* Reliability is increased through reviews. Each review submitted provides an increase in reliability, which depends on the reviewer's expertise and confidence, together with the review score.
+* An original research contribution is one which can be differenciated from the state of the art by itself. A work producing it's own hypothesis. 
+* Each original research contribution has a reliabilty and relevance score.
+* Whenever a new research contribution is submitted, it is assigned a base reliability and relevance.
+  * Base reliability: A fixed percentatge of reliability is taken from each author's own reliability. The total is summed and counts as base reliability. This amount acts as a loan from each author to the submitted contribution. In practice, limits the amount of concurrent original contributions made by the same author. This lent reliability will be returned to the authors as reviews to the paper are submitted, covering up the base reliability.
+  * Base relevance: Same as above. Instead of reviews, citations pay relevance back.
+* Beyond it's base value, Reliability is increased through reviews. Each review submitted increases reliability, the volume depending on the review score and the reviewer's expertise and confidence.
 * Reliability is not final (marked as confirmed) until the work has been independently replicated and/or reproduced.
 * Relevance is gained by citations.
 * Each original contribution has a clear set of authors, each with a percentual contribution. Certain categories are also attributed to specific authors (writing of manuscript, figures, tables, experimentation, footprint & ethics). All impact derived from an original contribution (reliability and relevance) is split among authors based on their contribution. Reviews can concern a specific part of contribution.
