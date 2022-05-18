@@ -73,27 +73,43 @@ Enhancing research contributions are those that are built to support, complement
 * Reviews: 
   * These are associated to an original research contribution, and can concern the whole work or only a part of it. 
   * A review has one or more authors, an overall score, and an estimated expertisee and confidence (both self-assessed and pre-computed from the author's profile). 
-  * Reviews marked as relevant by the community provide relevance to the authors of the review, and are recommended for integration into the original research contribution. 
+  * Reviews marked as relevant by the community provide relevance and reliability to the authors of the review, and are recommended for integration into the original research contribution. 
   * Only the original authors can authorize a review to be integrated, and can do so either doing it themselves or by coordinating with the review authors. In either case, the authors of the review gain authorship of the original research contribution, and obtain the consequent reliability and relevance scores (when integrated, a review no longer provides relevance by itself).
   * Reviews have a minimum of size, proportional to the size of the original work, and the areas the review covers.
-* Meta-reviews:
-  * These are associated to a review. Include a score of either "disagree", "lacks relevance", and "relevant & agree".
-  * Have a minimum size, proportional to the size of the review.
-  * Metareviews contribute with minimal reliability to author's.
 * State-of-the-art expansion
-* Replication/Reproduction of original research
+  * Contribution to an original work, expanding it's state-of-the-art contextualizaton
+  * The ones marked as relevant by the community provide relevance and reliability to the authors of the expansion, and are recommended for integration into the original research contribution. Integration works like review's.
 * Summarization and dissemination of research
+  * Works that make accessible the content of an original review
+  * Have a score of relevance from the community.
+  * Can be approved or disapproved by the authors of the original contribution
+  * Relevance works as with reviews
+* Meta-reviews:
+  * These are associated to a review, a sota expansion or a summarization and dissemination. Include a score of either "disagree", "lacks relevance", and "relevant & agree". Limited to a single author.
+  * Have a minimum size, proportional to the size of the review.
+  * Metareviews contribute with minimal reliability to metareview author.
+  * Can be up/down voted
+* Replication/Reproduction of original research
+  * Must come together with code and data
+  * Enough replications/reproductions make the relevance of an original work definitive.
 
-Each of these contributions has an associated author. Although anonymity is optional, this would be unveiled if a red flag is raised on their work (e.g., prevaricating reviews, false replication report, plagiarism in reviews/summaries/dissemination produced)
+Each of these contributions has an associated author. Although public anonymity is optional and recommended, this would be unveiled if a red flag is raised on their work (e.g., false authorship of a contribution, prevaricating reviews, false replication report, plagiarism in reviews/summaries/dissemination produced).
 
 #### Authors
 
-* Authors should not be allowed to submit an arbitrary number of original contributions per year. The amount of quality research a person can do in a year is limited. 
+* Authors have a reliability, relevance, and a list of authored contributions.
 
-* The number of original contributions an author may make should be related with the number of enhancing contributions that researcher makes on other people's original work. Enhancing contributions may be reviews, replicating other people's work, summarizing other papers or meta-reviewing. Clearly, a researcher who makes numerous and relevant enhancing contribution is in a better position to perform more and better original contributions.
+* The initial reliability and relevance is zero. At first, reliability can be gained by doing enhancing contributions. Relevance is gained with citations.
 
-* Authors should be encouraged to evaluate and take into account the enhancing contributions to their work, using it to improve their own research. Updated versions of original contributions should be released occasionally to meet the standards required by the scientific community and address concerns of special interest.
+* When doing original contributions, author's must donate a fixed fraction of their gained reliability, which is eventually returned with the addition of enhancing contributions that increase the work's reliability.
 
+* If an author has no fraction left of its reliability, no original contributions can be made. Reliability can always be gained though enhancing contributions. 
+
+* Authors are encouraged to evaluate and take into account the enhancing contributions to their work, using it to improve their own research. Updated versions of original contributions can be made in collaboration with the enhancing contribution author's, and increase the relevance and reliability of the original work, based on the community interest in the enhancing contribution. 
+
+* Authors can request reviews of their work to specific users. Typically, those involved in the same field, or being cited by the original work.
+
+* Authors gain additional relevance by doing enhancing contributions on those original ones citing them.
 
 ### The case of Artificial Intelligence
 
