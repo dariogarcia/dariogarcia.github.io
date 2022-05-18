@@ -59,19 +59,27 @@ The previously proposed solution is hard to implement in today's regime of priva
 * An original research contribution is one which can be differenciated from the state of the art by itself. A work producing it's own hypothesis. 
 * Each original research contribution has a reliabilty and relevance score.
 * Whenever a new research contribution is submitted, it is assigned a base reliability and relevance.
-  * Base reliability: A fixed percentatge of reliability is taken from each author's own reliability. The total is summed and counts as base reliability. This amount acts as a loan from each author to the submitted contribution. In practice, limits the amount of concurrent original contributions made by the same author. This lent reliability will be returned to the authors as reviews to the paper are submitted, covering up the base reliability.
-  * Base relevance: Same as above. Instead of reviews, citations pay relevance back.
-* Beyond it's base value, Reliability is increased through reviews. Each review submitted increases reliability, the volume depending on the review score and the reviewer's expertise and confidence.
-* Reliability is not final (marked as confirmed) until the work has been independently replicated and/or reproduced.
-* Relevance is gained by citations.
-* Each original contribution has a clear set of authors, each with a percentual contribution. Certain categories are also attributed to specific authors (writing of manuscript, figures, tables, experimentation, footprint & ethics). All impact derived from an original contribution (reliability and relevance) is split among authors based on their contribution. Reviews can concern a specific part of contribution.
+  * Base reliability: A fixed percentatge of reliability is taken from each author's owned reliability. The total is summed and counts as base reliability. This amount acts as a loan from each author to the submitted contribution. In practice, limits the amount of concurrent original contributions made by the same author, as the owned reliability is limited. This lent reliability will be returned to the authors owned as reviews to the paper are submitted, covering up the base reliability.
+  * Base relevance: Same as above. Instead of reviews, citations pay relevance back. However, this does not limit submissions, as one original research contribution can have zero base relevance.
+* Beyond it's base value, reliability is increased through reviews. Each review submitted increases reliability, the volume depending on the review score and the reviewer's expertise and confidence.
+* Reliability is not confirmed until the work has been independently replicated and/or reproduced. Reliability gained saturates.
+* Relevance is gained by citations. In a sort of page rank system, more relevant citations add more relevance. Relevance gained saturates.
+* Each original contribution has a clear set of authors, each with a percentual contribution. Certain categories are also attributed to specific authors (conceptualization, experimentation (numbered if applicable), writing of manuscript, figures & tables, footprint review & ethics assessment). All impact derived from an original contribution (reliability and relevance) is split among authors based on their contribution (percentual and depending on review target). Reviews can target a specific part/s of contribution.
 
 #### Enhancing Research Contributions
 
-Enhancing research contributions are those that are built to make others more complete. Not with a purpose beyond that of improving another research contribution. There are several types of enhancing contributions:
+Enhancing research contributions are those that are built to support, complement or extend other contributions. Free of purpose in itself, beyond that of improving another contribution. There are several types of enhancing contributions:
 
-* Reviews
-* Meta-reviews
+* Reviews: 
+  * These are associated to an original research contribution, and can concern the whole work or only a part of it. 
+  * A review has one or more authors, an overall score, and an estimated expertisee and confidence (both self-assessed and pre-computed from the author's profile). 
+  * Reviews marked as relevant by the community provide relevance to the authors of the review, and are recommended for integration into the original research contribution. 
+  * Only the original authors can authorize a review to be integrated, and can do so either doing it themselves or by coordinating with the review authors. In either case, the authors of the review gain authorship of the original research contribution, and obtain the consequent reliability and relevance scores (when integrated, a review no longer provides relevance by itself).
+  * Reviews have a minimum of size, proportional to the size of the original work, and the areas the review covers.
+* Meta-reviews:
+  * These are associated to a review. Include a score of either "disagree", "lacks relevance", and "relevant & agree".
+  * Have a minimum size, proportional to the size of the review.
+  * Metareviews contribute with minimal reliability to author's.
 * State-of-the-art expansion
 * Replication/Reproduction of original research
 * Summarization and dissemination of research
