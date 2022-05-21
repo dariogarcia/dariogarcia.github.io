@@ -54,36 +54,45 @@ Ok, so these are the problem. Seem like a lot. Let's see if we can find a few so
 
 The previously proposed solution is hard to implement in today's regime of private publishers and corporative venues. To implement all proposed solutions, we propose a new platform for research. In this system, there are two main types of contributions, original and enhancing ones. Additionally, there's authors, who can be attributed with either type of contributions.
 
-#### Original Research Contributions
+#### A few constants
 
-* An original research contribution is one which can be differenciated from the state of the art by itself. A work producing it's own hypothesis. 
-* Each original research contribution has a reliabilty and relevance score.
-* Whenever a new research contribution is submitted, it is assigned a base reliability and relevance.
-  * Base reliability: A fixed percentatge of reliability is taken from each author's owned reliability. The total is summed and counts as base reliability. This amount acts as a loan from each author to the submitted contribution. In practice, limits the amount of concurrent original contributions made by the same author, as the owned reliability is limited. This lent reliability will be returned to the authors owned as reviews to the paper are submitted, covering up the base reliability.
-  * Base relevance: Same as above. Instead of reviews, citations pay relevance back. However, this does not limit submissions, as one original research contribution can have zero base relevance.
-* Beyond it's base value, reliability is increased through reviews. Each review submitted increases reliability, the volume depending on the review score and the reviewer's expertise and confidence.
-* Reliability is not confirmed until the work has been independently replicated and/or reproduced. Reliability gained saturates.
-* Relevance is gained by citations. In a sort of page rank system, more relevant citations add more relevance. Relevance gained saturates.
-* Each original contribution has a clear set of authors, each with a percentual contribution. Certain categories are also attributed to specific authors (conceptualization, experimentation (numbered if applicable), writing of manuscript, figures & tables, footprint review & ethics assessment). All impact derived from an original contribution (reliability and relevance) is split among authors based on their contribution (percentual and depending on review target). Reviews can target a specific part/s of contribution.
+* Author commitment rate (ACR) in the order of 10.
+* Minimum open time (MOT) in the order of 1 year
+
+#### Original Research Contributions (ORC)
+
+An ORC is one which can be differenciated from the state of the art by itself. A work producing it's own hypothesis. 
+
+Each ORC has a reliabilty and relevance score, which are initialized to a basic value when the contribution is first made public. The basic reliability and relevance comes from the ORC authors', as a commitment to the work. This is returned to their correponding owners as the ORC gains it's own reliability (reviews, replications and reproductions) and relevance (citations, dissemination) from other sources. 
+Good reviews by confident and expert authors will increase the ORC reliability, up to a certain threshold. To get beyond that an ORC needs to be replicated and/or reproduced at least once by a public and non-conflicting author. 
+Citations to the ORC from reliable and relevant papers provide relevance, as well as liked dissemination works linked to the ORC.
+* Relevance and reliability gain follows a sigmoid, starting slow, peak gradient at the middle, and asymptoting to a maximum.
+* Initial reliability/relevance of an ORC: Each author of the ORC must commit 1/ACR of it's own reliability/relevance to the ORC. If one or more authors do not have enough uncommited reliability/relevance, the ORC cannot be made public.
+
+An ORC has set of authors, public or private, each with a percentual contribution to the work. This is added individually to the platform, iterating until unanymous agreement. Reliability and relevance produced by the ORC is split among authors accordingly.
+
+An ORC can be open or closed. When submitted, it is open, and it will remain so for MOT time. Beyond that point, the ORC authors can decide to close it at any time. When closed, an ORC can no longer recieve reviews, and can no longer be modified. Instead, it can receive commentary regarding its historical perspective. Once closed it cannot be reopened. 
 
 #### Enhancing Research Contributions
 
-Enhancing research contributions are those that are built to support, complement or extend other contributions. Free of purpose in itself, beyond that of improving another contribution. There are several types of enhancing contributions:
+Enhancing research contributions are those that are built to support, complement or extend other contributions. Free of purpose in itself, beyond that of improving another contribution. There are several types of enhancing contributions: Reviews, 
 
-* Reviews: 
-  * These are associated to an original research contribution, and can concern the whole work or only a part of it. 
-  * A review has one or more authors, an overall score, and an estimated expertisee and confidence (both self-assessed and pre-computed from the author's profile). 
-  * Reviews marked as relevant by the community provide relevance and reliability to the authors of the review, and are recommended for integration into the original research contribution. 
-  * Only the original authors can authorize a review to be integrated, and can do so either doing it themselves or by coordinating with the review authors. In either case, the authors of the review gain authorship of the original research contribution, and obtain the consequent reliability and relevance scores (when integrated, a review no longer provides relevance by itself).
-  * Reviews have a minimum of size, proportional to the size of the original work, and the areas the review covers.
-* State-of-the-art expansion
-  * Contribution to an original work, expanding it's state-of-the-art contextualizaton
-  * The ones marked as relevant by the community provide relevance and reliability to the authors of the expansion, and are recommended for integration into the original research contribution. Integration works like review's.
-* Summarization and dissemination of research
-  * Works that make accessible the content of an original review
-  * Have a score of relevance from the community.
-  * Can be approved or disapproved by the authors of the original contribution
-  * Relevance works as with reviews
+##### Reviews 
+
+Each review is associated with an ORC. It can have one or more authors, public or private. In either case, the platform validate and publishes potential conflicts. Having a conflict is not forbidden for review authors, but it must be clearly declared and disclosed. A review has the overall ORC score (1-5), a self-assessed expertisee and confidence, and the reliability of the authors.
+
+* Review scores are
+  * 1, full reconsideration: The ORC has fundamental flaws and no contribution. Not worth fixing. Suggested withdrawl. Review must refute the contributions argued in the ORC, and identify a list of major problems.
+  * 2, major changes needed: While there is an original contribution, the ORC has major flaws. These need to be addressed before the work can be allowed to have its own relevance and reliability. Review must clearly indicate the strong points and most relevant weak points of the ORC. 
+  * 3, minor changes needed: The contribution is clear, and can be properly presented with changes in a few areas. The ORC is relevant and reliable. Review must contain a summary of the contribution, and a list of minor changes to apply.
+  * 4, improvements possible: The ORC is a solid piece of science that has no relevant flaws and is highly relevant. A few improvements are possible. The review must list those, together with an argumentation on the strong points of the ORC.
+  * 5, outstanding: Flawless and extremly relevant. Short summary of the main contributions.
+
+Published reviews can be upvoted by the community, and even recommended them for integration into the ORC. Either of those cases provides relevance to the authors of the review. Reviews with scores of 2, 3 and 4 can also include a list of changes on the ORC, addressing the points identified in the same review.
+
+Popular reviews which include a list of changes, can be requested for integration. This can only be authorized by the original authors of the ORC. When this is the case, the work is coordinated, authorships to the ORC are added as well as the corresponding percentatges. Reliability and relevance scores are recomputed, becoming larger because of the inherited relevance and confidence from the integrated review, but also splitting among more, since the number of authors is increased.
+
+
 * Meta-reviews:
   * These are associated to a review, a sota expansion or a summarization and dissemination. Include a score of either "disagree", "lacks relevance", and "relevant & agree". Limited to a single author.
   * Have a minimum size, proportional to the size of the review.
@@ -92,12 +101,26 @@ Enhancing research contributions are those that are built to support, complement
 * Replication/Reproduction of original research
   * Must come together with code and data
   * Enough replications/reproductions make the relevance of an original work definitive.
+* Dissemination
+  * Works that make accessible the content of an original review
+  * Have a score of relevance from the community.
+  * Can be approved or disapproved by the authors of the original contribution
+  * Relevance works as with reviews
 
 Each of these contributions has an associated author. Although public anonymity is optional and recommended, this would be unveiled if a red flag is raised on their work (e.g., false authorship of a contribution, prevaricating reviews, false replication report, plagiarism in reviews/summaries/dissemination produced).
 
 #### Authors
 
 * Authors have a reliability, relevance, and a list of authored contributions.
+
+public/private authors
+
+conflicting authors
+
+right to flag. 
+
+reliability can be commited
+limiting the number of concurrent ORCs from the same author. 
 
 * The initial reliability and relevance is zero. At first, reliability can be gained by doing enhancing contributions. Relevance is gained with citations.
 
@@ -110,6 +133,16 @@ Each of these contributions has an associated author. Although public anonymity 
 * Authors can request reviews of their work to specific users. Typically, those involved in the same field, or being cited by the original work.
 
 * Authors gain additional relevance by doing enhancing contributions on those original ones citing them.
+
+#### Moderators
+
+Each year, authors with relevance and reliability are invited for moderation. This means resolving disputes, as authors from the platform request the attention of a moderator (e.g., offensive content, paper rebutals, plagiarism claims). All such disputes, together with any actions taken, get logged for accountability.
+
+### Ethical considerations
+
+Should the system enforce the use of ethical reviews and enviromental assesments in ORCs?
+
+Is the system resistant to manipulation, power concentration and abuse?
 
 ### The case of Artificial Intelligence
 
