@@ -54,8 +54,9 @@ Ok, so these are the problem. Seem like a lot. Let's see if we can find a few so
 
 The previously proposed solution is hard to implement in today's regime of private publishers and corporative venues. To implement all proposed solutions, we propose a new platform for research. In this system, there are two main types of contributions, original and enhancing ones. Additionally, there's authors, who can be attributed with either type of contributions.
 
-#### A few constants
+Each contribution has an associated author. Although public anonymity is optional and recommended, this would be unveiled by the system if a red flag is raised on their work (e.g., false authorship of a contribution, prevaricating reviews, false replication report, plagiarism in reviews/summaries/dissemination produced).
 
+Some constants used later on:
 * Author commitment rate (ACR) in the order of 10.
 * Minimum open time (MOT) in the order of 1 year
 
@@ -84,30 +85,26 @@ Each review is associated with an ORC. It can have one or more authors, public o
 * Review scores are
   * 1, full reconsideration: The ORC has fundamental flaws and no contribution. Not worth fixing. Suggested withdrawl. Review must refute the contributions argued in the ORC, and identify a list of major problems.
   * 2, major changes needed: While there is an original contribution, the ORC has major flaws. These need to be addressed before the work can be allowed to have its own relevance and reliability. Review must clearly indicate the strong points and most relevant weak points of the ORC. 
-  * 3, minor changes needed: The contribution is clear, and can be properly presented with changes in a few areas. The ORC is relevant and reliable. Review must contain a summary of the contribution, and a list of minor changes to apply.
+  * 3, minor changes recommended: The contribution is clear, and can be properly presented with changes in a few areas. The ORC is relevant and reliable. Review must contain a summary of the contribution, and a list of minor changes to apply.
   * 4, improvements possible: The ORC is a solid piece of science that has no relevant flaws and is highly relevant. A few improvements are possible. The review must list those, together with an argumentation on the strong points of the ORC.
   * 5, outstanding: Flawless and extremly relevant. Short summary of the main contributions.
 
-Published reviews can be upvoted by the community, and even recommended them for integration into the ORC. Either of those cases provides relevance to the authors of the review. Reviews with scores of 2, 3 and 4 can also include a list of changes on the ORC, addressing the points identified in the same review.
+A majority of votes 1 will add a warning to the ORC, and a request will be made to authors to temporarily withdraw the work. A majority of votes 2 freezes the reliability and relevance of the ORC obtained through citations and other means, limiting those values to the original ones. 
 
-Popular reviews which include a list of changes, can be requested for integration. This can only be authorized by the original authors of the ORC. When this is the case, the work is coordinated, authorships to the ORC are added as well as the corresponding percentatges. Reliability and relevance scores are recomputed, becoming larger because of the inherited relevance and confidence from the integrated review, but also splitting among more, since the number of authors is increased.
+Published reviews can be upvoted by the community, and even recommended them for integration into the ORC. Either of those cases provides relevance to the authors of the review. Reviews with scores of 2, 3 and 4 can also include a list of changes on the ORC, addressing the points identified in the same review. Popular reviews which include a list of changes, can be requested for integration. This can only be authorized by the original authors of the ORC. When this is the case, the work is coordinated, authorships to the ORC are added as well as the corresponding percentatges. Reliability and relevance scores are recomputed, becoming larger because of the inherited relevance and confidence from the integrated review, but also splitting among more, since the number of authors is increased.
 
+##### Meta-reviews
 
-* Meta-reviews:
-  * These are associated to a review, a sota expansion or a summarization and dissemination. Include a score of either "disagree", "lacks relevance", and "relevant & agree". Limited to a single author.
-  * Have a minimum size, proportional to the size of the review.
-  * Metareviews contribute with minimal reliability to metareview author.
-  * Can be up/down voted
-* Replication/Reproduction of original research
-  * Must come together with code and data
-  * Enough replications/reproductions make the relevance of an original work definitive.
-* Dissemination
-  * Works that make accessible the content of an original review
-  * Have a score of relevance from the community.
-  * Can be approved or disapproved by the authors of the original contribution
-  * Relevance works as with reviews
+These are made by a single author, containing a short test discussing a review. It includes a score of either "disagree", "lacks relevance", and "relevant & agree". Metareviews contribute with minimal reliability to metareview author, and can also be up or down voted.
 
-Each of these contributions has an associated author. Although public anonymity is optional and recommended, this would be unveiled if a red flag is raised on their work (e.g., false authorship of a contribution, prevaricating reviews, false replication report, plagiarism in reviews/summaries/dissemination produced).
+##### Replication and Reproduction of original research
+
+These are empirical exercises trying to obtain analogous results to those produced in an ORC. Typically, this will include other artifacts as to validate the experimentation conducted, such as code and data. Replications and/or reproductions of an ORC earns a badge for it.
+
+##### Dissemination
+
+These contributions make accessible the content of an ORC. It can be externally linked, although an upload of contents is required for persistence. Can be up/down voted by the community, and approved or disapproved by the authors of the ORC. Dissemination works add relevance to both the ORC and the author of the dissemination.
+
 
 #### Authors
 
