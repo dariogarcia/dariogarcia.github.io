@@ -4,7 +4,7 @@ title: A new Platform for Science & Research
 date: 2022-05-14 00:00:00 +0300
 description: The process by which research gets published is severely flawed. The whole system is based on old principles, and obsolete in the face of new technology. We identify those problems, their solutions, and propose a new platform for science to organize it.
 img: research.jpg 
-tags: [Science, Research, Organization]
+tags: [Science, Research, Organization, Artificial Intelligence]
 ---
 
 We propose a new structure for scientific reviewing, publication and dissemination. To do so, we first identify the main problems in how research works today.
