@@ -52,9 +52,7 @@ Ok, so these are the problem. Seem like a lot. Let's see if we can find a few so
 
 ### A New Platform for Research
 
-The previously proposed solution is hard to implement in today's regime of private publishers and corporative venues. To implement all proposed solutions, we propose a new platform for research. In this system, there are two main types of contributions, original and enhancing ones. Additionally, there's authors, who can be attributed with either type of contributions.
-
-Each contribution has an associated author. Although public anonymity is optional and recommended, this would be unveiled by the system if a red flag is raised on their work (e.g., false authorship of a contribution, prevaricating reviews, false replication report, plagiarism in reviews/summaries/dissemination produced).
+The previously proposed solution is hard to implement in today's regime of private publishers and corporative venues. To implement all proposed solutions, we propose a new platform for research. In this system, there are two main types of contributions, original and enhancing ones. Additionally, there's authors, who can be attributed with either type of contributions. Public anonymity is optional and recommended.
 
 Some constants used later on:
 * Author commitment rate (ACR) in the order of 10.
@@ -129,7 +127,7 @@ Authors are encouraged to evaluate and take into account the enhancing contribut
 
 #### Moderators
 
-Each year, authors with relevance and reliability are invited for moderation. This means resolving disputes, as authors from the platform request the attention of a moderator (e.g., offensive content, paper rebutals, plagiarism claims, hidden conflict of interest). All such disputes, together with any actions taken, get logged for accountability.
+Each year, authors with relevance and reliability are invited for a one-year moderation role. This means resolving disputes, as authors from the platform request the attention of a moderator (e.g., offensive content, paper rebutals, plagiarism claims, hidden conflict of interest). All such disputes, together with any actions taken, get logged for accountability, and can be reviewed by other (or later) moderators.
 
 ### Ethical considerations
 
