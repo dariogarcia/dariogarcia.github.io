@@ -64,34 +64,35 @@ Some constants used later on:
 
 An ORC is one which can be differenciated from the state of the art by itself. A work producing it's own hypothesis. 
 
-Each ORC has a reliabilty and relevance score, which are initialized to a basic value when the contribution is first made public. The basic reliability and relevance comes from the ORC authors', as a commitment to the work. This is returned to their correponding owners as the ORC gains it's own reliability (reviews, replications and reproductions) and relevance (citations, dissemination) from other sources. 
-Good reviews by confident and expert authors will increase the ORC reliability, up to a certain threshold. To get beyond that an ORC needs to be replicated and/or reproduced at least once by a public and non-conflicting author. 
+Each ORC has a reliabilty and relevance score, which are initialized to a basic value when the contribution is first made public. The basic reliability and relevance comes from the ORC authors', as a commitment to the work. This is returned to their correponding owners as the ORC gains it's own reliability (reviews, replications and reproductions) and relevance (citations, dissemination) from other sources. Good reviews by confident and expert authors will increase the ORC reliability, up to a certain threshold. To get beyond that an ORC needs to be replicated and/or reproduced at least once by a public and non-conflicting author. 
 Citations to the ORC from reliable and relevant papers provide relevance, as well as liked dissemination works linked to the ORC.
 * Relevance and reliability gain follows a sigmoid, starting slow, peak gradient at the middle, and asymptoting to a maximum.
 * Initial reliability/relevance of an ORC: Each author of the ORC must commit 1/ACR of it's own reliability/relevance to the ORC. If one or more authors do not have enough uncommited reliability/relevance, the ORC cannot be made public.
 
 An ORC has set of authors, public or private, each with a percentual contribution to the work. This is added individually to the platform, iterating until unanymous agreement. Reliability and relevance produced by the ORC is split among authors accordingly.
 
-An ORC can be open or closed. When submitted, it is open, and it will remain so for MOT time. Beyond that point, the ORC authors can decide to close it at any time. When closed, an ORC can no longer recieve reviews, and can no longer be modified. Instead, it can receive commentary regarding its historical perspective. Once closed it cannot be reopened. 
+An ORC can be open or closed. When submitted, it is open, and it will remain so for MOT time. Beyond that point, the ORC authors can decide to close it at any time. When closed, an ORC can no longer receive reviews, and can no longer be modified. Instead, it can receive commentary regarding its historical perspective. Once closed it cannot be reopened. 
 
 #### Enhancing Research Contributions
 
-Enhancing research contributions are those that are built to support, complement or extend other contributions. Free of purpose in itself, beyond that of improving another contribution. There are several types of enhancing contributions: Reviews, 
+Enhancing research contributions (ERC) are those that are built to support, complement or extend other contributions. Free of purpose in itself, beyond that of improving another contribution. There are several types of enhancing contributions: Reviews, Meta-reviews, Replication and/or Reproduction, and Dissemination.
 
 ##### Reviews 
 
 Each review is associated with an ORC. It can have one or more authors, public or private. In either case, the platform validate and publishes potential conflicts. Having a conflict is not forbidden for review authors, but it must be clearly declared and disclosed. A review has the overall ORC score (1-5), a self-assessed expertisee and confidence, and the reliability of the authors.
 
 * Review scores are
-  * 1, full reconsideration: The ORC has fundamental flaws and no contribution. Not worth fixing. Suggested withdrawl. Review must refute the contributions argued in the ORC, and identify a list of major problems.
+  * 1, full reconsideration: The ORC has fundamental flaws and no contribution. Not worth fixing. Suggested withdrawl. Review must refute all contributions argued in the ORC, and identify a list of major problems.
   * 2, major changes needed: While there is an original contribution, the ORC has major flaws. These need to be addressed before the work can be allowed to have its own relevance and reliability. Review must clearly indicate the strong points and most relevant weak points of the ORC. 
-  * 3, minor changes recommended: The contribution is clear, and can be properly presented with changes in a few areas. The ORC is relevant and reliable. Review must contain a summary of the contribution, and a list of minor changes to apply.
+  * 3, minor changes recommended: The contribution is clear, and can be properly concluded with changes in a few areas. The ORC is relevant and reliable. Review must contain a summary of the contribution, and a list of minor changes to apply.
   * 4, improvements possible: The ORC is a solid piece of science that has no relevant flaws and is highly relevant. A few improvements are possible. The review must list those, together with an argumentation on the strong points of the ORC.
-  * 5, outstanding: Flawless and extremly relevant. Short summary of the main contributions.
+  * 5, complete: Flawless and extremly relevant. Short summary of the main contributions.
 
-A majority of votes 1 will add a warning to the ORC, and a request will be made to authors to temporarily withdraw the work. A majority of votes 2 freezes the reliability and relevance of the ORC obtained through citations and other means, limiting those values to the original ones. 
+A majority of votes 1 will add a warning to the ORC, and a request will be made to authors to temporarily withdraw the work. A majority of votes 2 freezes the reliability and relevance of the ORC obtained through ERC, limiting those values to the original ones. 
 
-Published reviews can be upvoted by the community, and even recommended them for integration into the ORC. Either of those cases provides relevance to the authors of the review. Reviews with scores of 2, 3 and 4 can also include a list of changes on the ORC, addressing the points identified in the same review. Popular reviews which include a list of changes, can be requested for integration. This can only be authorized by the original authors of the ORC. When this is the case, the work is coordinated, authorships to the ORC are added as well as the corresponding percentatges. Reliability and relevance scores are recomputed, becoming larger because of the inherited relevance and confidence from the integrated review, but also splitting among more, since the number of authors is increased.
+Published reviews can be upvoted by the community, and recommended for integration into the ORC. Both these cases provide relevance to the authors of the review. Additionally if it is upvoted by the ORC authors (endorsement). Reviews with scores of 2, 3 and 4 mustcan also include a list of changes on the ORC, addressing the points identified in the same review. Popular reviews which include a list of changes, can be requested for integration. 
+
+The integration of a review into an ORC can only be authorized by the original authors of the ORC. When this is the case, the work is coordinated, authorships to the ORC are added as well as the corresponding percentatges. Reliability and relevance scores are recomputed, becoming larger because of the inherited relevance and confidence from the integrated review, but also splitting among more, since the number of authors is increased.
 
 ##### Meta-reviews
 
@@ -99,7 +100,7 @@ These are made by a single author, containing a short test discussing a review. 
 
 ##### Replication and Reproduction of original research
 
-These are empirical exercises trying to obtain analogous results to those produced in an ORC. Typically, this will include other artifacts as to validate the experimentation conducted, such as code and data. Replications and/or reproductions of an ORC earns a badge for it.
+These are empirical exercises trying to obtain analogous results to those produced in an ORC. Typically, this will include other artifacts as to validate the experimentation conducted, such as code and data. Replications and/or reproductions of an ORC earns a badge for reliability.
 
 ##### Dissemination
 
@@ -108,32 +109,27 @@ These contributions make accessible the content of an ORC. It can be externally 
 
 #### Authors
 
-* Authors have a reliability, relevance, and a list of authored contributions.
+Authors have a reliability, relevance, and a list of authored contributions. An author's reliability and relevance is derived from the their contributions (either ORC or ERC). ORCs relevance is obtained from unconflicted third-party citations (more from relevant papers) and dissemination works (more from popular ones) on authored ORCs. Successful dissemination works (ERCs) made on third party ORCs also provides relevance. Reliability is obtained through unconflicted third-party reviews with high scores (more from upvoted reviews), or by the reproduction or replication of authored ORC. Upvoted reviews and meta-reviews (ERCs) made on third-party ORCs also provides reliability, more so if these are endorsed and/or integrated into the ORC.
 
-public/private authors
+Authors with no reliability or relevance (either because they just entered the system, or because they have it committed) cannot make ORCs. To gain reliability or relevance they can produce ERCs. ERCs made on ORCs related to their own (e.g., ORCs that cite their own ORCs) provide additional relevance.
 
-conflicting authors
+A fixed fraction of the reliability of authors becomes commited when a new ORC is produced. This limit the amount of ORC an author may concurrently have, although it may be uncommitted fast if the ORC gains reliability and relevance of its own. ORC will therefore have variable initial scores, based on their author's.
 
-right to flag. 
+Authors can choose to publicly disclose their authorship on ORCs and ERCs. In either case, the platform is always aware of identities, so that conflicts of interest can be always publicly advertised. In case of malpractice detection, identities may be released. Authors have to declare and keep updated their conflicts within the platform. Automatic conflict is labeled to authors from the same institution, or authors that have co-authored either ORCs or ERCs.
+ 
+Authors have the right to flag ORCs and ERCs for a series of malpractices: 
+* false authorship of a contribution
+* prevaricating reviews / false replication report    
+* plagiarism 
+* offensive content
+* hidden conflict of interest
 
-reliability can be commited
-limiting the number of concurrent ORCs from the same author. 
+Authors are encouraged to evaluate and take into account the enhancing contributions to their work, using it to improve their own research. Updated versions of original contributions can be made in collaboration with the enhancing contribution author's, and increase the relevance and reliability of the original work, based on the community interest in the enhancing contribution. Authors can request reviews of their work to specific users. Typically, those involved in the same field, or being cited by the original work.
 
-* The initial reliability and relevance is zero. At first, reliability can be gained by doing enhancing contributions. Relevance is gained with citations.
-
-* When doing original contributions, author's must donate a fixed fraction of their gained reliability, which is eventually returned with the addition of enhancing contributions that increase the work's reliability.
-
-* If an author has no fraction left of its reliability, no original contributions can be made. Reliability can always be gained though enhancing contributions. 
-
-* Authors are encouraged to evaluate and take into account the enhancing contributions to their work, using it to improve their own research. Updated versions of original contributions can be made in collaboration with the enhancing contribution author's, and increase the relevance and reliability of the original work, based on the community interest in the enhancing contribution. 
-
-* Authors can request reviews of their work to specific users. Typically, those involved in the same field, or being cited by the original work.
-
-* Authors gain additional relevance by doing enhancing contributions on those original ones citing them.
 
 #### Moderators
 
-Each year, authors with relevance and reliability are invited for moderation. This means resolving disputes, as authors from the platform request the attention of a moderator (e.g., offensive content, paper rebutals, plagiarism claims). All such disputes, together with any actions taken, get logged for accountability.
+Each year, authors with relevance and reliability are invited for moderation. This means resolving disputes, as authors from the platform request the attention of a moderator (e.g., offensive content, paper rebutals, plagiarism claims, hidden conflict of interest). All such disputes, together with any actions taken, get logged for accountability.
 
 ### Ethical considerations
 
