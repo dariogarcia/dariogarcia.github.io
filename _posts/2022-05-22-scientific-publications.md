@@ -115,7 +115,7 @@ A fixed fraction of the reliability of authors becomes commited when a new ORC i
 
 Authors can choose to publicly disclose their authorship on ORCs and ERCs. In either case, the platform is always aware of identities, so that conflicts of interest can be always publicly advertised. In case of malpractice detection, identities may be released. Authors have to declare and keep updated their conflicts within the platform. Automatic conflict is labeled to authors from the same institution, or authors that have co-authored either ORCs or ERCs.
  
-Authors have the right to flag ORCs and ERCs for a series of malpractices: 
+Authors have the right to flag ORCs and ERCs for a series of malpractices, which are handled by moderators: 
 * false authorship of a contribution
 * prevaricating reviews / false replication report    
 * plagiarism 
@@ -127,7 +127,7 @@ Authors are encouraged to evaluate and take into account the enhancing contribut
 
 #### Moderators
 
-Each year, authors with relevance and reliability are invited for a one-year moderation role. This means resolving disputes, as authors from the platform request the attention of a moderator (e.g., offensive content, paper rebutals, plagiarism claims, hidden conflict of interest). All such disputes, together with any actions taken, get logged for accountability, and can be reviewed by other (or later) moderators.
+Each year, authors with relevance and reliability are invited for a one-year moderation role. This means resolving disputes, as authors from the platform request the attention of a moderator. All such disputes, together with any actions taken, get logged for accountability, and can be reviewed by other (or later) moderators.
 
 ### Ethical considerations
 
