@@ -57,12 +57,17 @@ The previously proposed solution is hard to implement in today's regime of priva
 Some constants used later on:
 * Author commitment rate (ACR) in the order of 10.
 * Minimum open time (MOT) in the order of 1 year
+* Baseline point (is the initial reliability/relevance of the ORC
+)
+
+Some disclaimers:
+* This platform is considered with experimental research in mind. Things like replication or reproduction of work may not make sense in other contexts of science. It is easy to imagine the platform adapted to handle all types of work, as long as these can be developed under peer review.
 
 #### Original Research Contributions (ORC)
 
 An ORC is one which can be differenciated from the state of the art by itself. A work producing it's own hypothesis. 
 
-Each ORC has a reliabilty and relevance score, which are initialized to a basic value when the contribution is first made public. The basic reliability and relevance comes from the ORC authors', as a commitment to the work. This is returned to their correponding owners as the ORC gains it's own reliability (reviews, replications and reproductions) and relevance (citations, dissemination) from other sources. Good reviews by confident and expert authors will increase the ORC reliability, up to a certain threshold. To get beyond that an ORC needs to be replicated and/or reproduced at least once by a public and non-conflicting author. 
+Each ORC has a reliabilty and relevance score, which are initialized to a basic value when the contribution is first made public. The basic reliability and relevance comes from the ORC authors', as a commitment to the work. This is returned to their correponding owners as the ORC gains it's own reliability (reviews, replications and reproductions) and relevance (citations, dissemination) from other sources and reachesthe baseline point. Good reviews by confident and expert authors will increase the ORC reliability, up to a certain threshold. To get beyond that an ORC needs to be replicated and/or reproduced at least once by a public and non-conflicting author. 
 Citations to the ORC from reliable and relevant papers provide relevance, as well as liked dissemination works linked to the ORC.
 * Relevance and reliability gain follows a sigmoid, starting slow, peak gradient at the middle, and asymptoting to a maximum.
 * Initial reliability/relevance of an ORC: Each author of the ORC must commit 1/ACR of it's own reliability/relevance to the ORC. If one or more authors do not have enough uncommited reliability/relevance, the ORC cannot be made public.
@@ -109,6 +114,8 @@ These contributions make accessible the content of an ORC. It can be externally 
 
 Authors have a reliability, relevance, and a list of authored contributions. An author's reliability and relevance is derived from the their contributions (either ORC or ERC). ORCs relevance is obtained from unconflicted third-party citations (more from relevant papers) and dissemination works (more from popular ones) on authored ORCs. Successful dissemination works (ERCs) made on third party ORCs also provides relevance. Reliability is obtained through unconflicted third-party reviews with high scores (more from upvoted reviews), or by the reproduction or replication of authored ORC. Upvoted reviews and meta-reviews (ERCs) made on third-party ORCs also provides reliability, more so if these are endorsed and/or integrated into the ORC.
 
+FIX HOW IS RELIABILITY AND RELEVANCE OBTAINED. FIRST COMMON MAIN ON ORCS. THEN SEPARATE ON ERCS.
+
 Authors with no reliability or relevance (either because they just entered the system, or because they have it committed) cannot make ORCs. To gain reliability or relevance they can produce ERCs. ERCs made on ORCs related to their own (e.g., ORCs that cite their own ORCs) provide additional relevance.
 
 A fixed fraction of the reliability of authors becomes commited when a new ORC is produced. This limit the amount of ORC an author may concurrently have, although it may be uncommitted fast if the ORC gains reliability and relevance of its own. ORC will therefore have variable initial scores, based on their author's.
@@ -124,27 +131,76 @@ Authors have the right to flag ORCs and ERCs for a series of malpractices, which
 
 Authors are encouraged to evaluate and take into account the enhancing contributions to their work, using it to improve their own research. Updated versions of original contributions can be made in collaboration with the enhancing contribution author's, and increase the relevance and reliability of the original work, based on the community interest in the enhancing contribution. Authors can request reviews of their work to specific users. Typically, those involved in the same field, or being cited by the original work.
 
-
 #### Moderators
 
 Each year, authors with relevance and reliability are invited for a one-year moderation role. This means resolving disputes, as authors from the platform request the attention of a moderator. All such disputes, together with any actions taken, get logged for accountability, and can be reviewed by other (or later) moderators.
 
 ### Ethical considerations
 
-Should the system enforce the use of ethical reviews and enviromental assesments in ORCs?
+The integration of ethical aspects of research into the platform remain to be discussed. These include:
+* Should the system enforce the use of ethical reviews and enviromental assesments in ORCs?
+* Is the system resistant to manipulation, power concentration and abuse?
 
-Is the system resistant to manipulation, power concentration and abuse?
+### Summary in Object Oriented pseudo-code
 
-### The case of Artificial Intelligence
-
-AI has a set of particularities that deserve to be discussed separately. For research done in this area, we must consider into account issues like model bias (particulary in machine learning). At the moment, there is no incentive for analyzing, rating and reinforcing or deleting bias from trained and released models. As a result, the majority of released models are not safe to use in practice, a feature that is also inherited by all models build on top (a very popular practice known as transfer learning).
-
-In order to make the cost of bias worthwhile, we need to demand it and reward it. This must involve all actors involved in research:
-
-* Funding agencies should include non-optional debiasing requirements on all calls made public.
-* Research institutions which target AI models should include structural units focused on bias, to ensure no dangerously biased models or research is released.
-* Publication venues and/or reviewers should demand debiasing proof and effort on all relevant research. Failing yo comply should entail desk reject.
-
+    AUTHOR
+    relevance
+    reliability
+    contributions
+    conflicts
+    
+    CONTRIBUTION
+    authors
+    percentatges
+    anonymity
+    open
+    creation_time
+    flags
+        ORC
+        relevance
+        reliability
+        baselined
+        citations
+        related_erc
+        ERC
+        reference_ORC
+        content
+            REVIEW
+            score
+            up_down_votes
+            endorsed
+            integration
+            METAREVIEW
+            relevance_agree
+            up_down_votes        
+            REPTION
+            type
+            DISSEMINATION
+            popularity
+            endorsed
+    
+    ORC.relevance = ORC.citations + ORC.related_erc(DISSEMINATION) +
+                                     
+    ORC.reliability = 0
+    for review in ORC.related_erc(REVIEW)
+        ORC.reliability+= (rev.score\*rev.upvotes)\/rev.total_votes +
+    ORC.reliability += ORC.related_erc(REPTION)
+    
+    AUTHOR.relevance = 0
+    for orc in AUTHOR.contributions
+        if orc.baselined
+            AUTHOR.relevance += ORC.relevance * ORC.percentatges(AUTHOR)
+    AUTHOR.relevance+= AUTHOR.contributions(REVIEW) +
+                       AUTHOR.contributions(DISSEMINATION) 
+    
+    AUTHOR.reliability = 0
+    for orc in AUTHOR.contributions
+        if orc.baselined
+            AUTHOR.reliability += ORC.reliability * ORC.percentatges(AUTHOR) 
+    AUTHOR.reliability+= AUTHOR.contributions(REVIEW) +
+                       AUTHOR.contributions(REPTION) + 
+                       AUTHOR.contributions(METAREVIEWS) 
+                                   
 
 ### References
 
