@@ -68,7 +68,7 @@ Some disclaimers:
 An ORC is one which can be differenciated from the state of the art by itself. A work producing it's own hypothesis. 
 
 Each ORC has a reliabilty and relevance score, which are initialized to a basic value when the contribution is first made public. The basic reliability and relevance comes from the ORC authors', as a commitment to the work. This is returned to their correponding owners as the ORC gains it's own reliability (reviews, replications and reproductions) and relevance (citations, dissemination) from other sources and reachesthe baseline point. Good reviews by confident and expert authors will increase the ORC reliability, up to a certain threshold. To get beyond that an ORC needs to be replicated and/or reproduced at least once by a public and non-conflicting author. 
-Citations to the ORC from reliable and relevant papers provide relevance, as well as liked dissemination works linked to the ORC.
+Citations from third-party, non-conflicting reliable and relevant papers provide relevance. Liked dissemination works linked to the ORC also provide relevance.
 * Relevance and reliability gain follows a sigmoid, starting slow, peak gradient at the middle, and asymptoting to a maximum.
 * Initial reliability/relevance of an ORC: Each author of the ORC must commit 1/ACR of it's own reliability/relevance to the ORC. If one or more authors do not have enough uncommited reliability/relevance, the ORC cannot be made public.
 
@@ -112,13 +112,11 @@ These contributions make accessible the content of an ORC. It can be externally 
 
 #### Authors
 
-Authors have a reliability, relevance, and a list of authored contributions. An author's reliability and relevance is derived from the their contributions (either ORC or ERC). ORCs relevance is obtained from unconflicted third-party citations (more from relevant papers) and dissemination works (more from popular ones) on authored ORCs. Successful dissemination works (ERCs) made on third party ORCs also provides relevance. Reliability is obtained through unconflicted third-party reviews with high scores (more from upvoted reviews), or by the reproduction or replication of authored ORC. Upvoted reviews and meta-reviews (ERCs) made on third-party ORCs also provides reliability, more so if these are endorsed and/or integrated into the ORC.
+Authors have a reliability, a relevance, and a list of authored contributions. Author gain their reliability and relevance through their contributions (either ORC or ERC). While ORC provide both reliability and contribution to their authors, ERC do no. Dissemination works provide relevance. Reliability is obtained from reviews, reproductions and replications and metareviews.
 
-FIX HOW IS RELIABILITY AND RELEVANCE OBTAINED. FIRST COMMON MAIN ON ORCS. THEN SEPARATE ON ERCS.
+Authors with no reliability or relevance (either because they just entered the system, or because they have it committed) cannot make ORCs. To gain reliability or relevance they can produce ERCs. ERCs made on ORCs related to their own work (e.g., ORCs that cite their own ORCs) provide additional relevance.
 
-Authors with no reliability or relevance (either because they just entered the system, or because they have it committed) cannot make ORCs. To gain reliability or relevance they can produce ERCs. ERCs made on ORCs related to their own (e.g., ORCs that cite their own ORCs) provide additional relevance.
-
-A fixed fraction of the reliability of authors becomes commited when a new ORC is produced. This limit the amount of ORC an author may concurrently have, although it may be uncommitted fast if the ORC gains reliability and relevance of its own. ORC will therefore have variable initial scores, based on their author's.
+A fixed fraction of the reliability of authors becomes commited when a new ORC is produced. This limit the amount of ORC an author may concurrently have, although it may be uncommitted fast if the ORC gains reliability and relevance of its own. ORCs will therefore have variable initial relevance and reliability, proportional to that of their authors.
 
 Authors can choose to publicly disclose their authorship on ORCs and ERCs. In either case, the platform is always aware of identities, so that conflicts of interest can be always publicly advertised. In case of malpractice detection, identities may be released. Authors have to declare and keep updated their conflicts within the platform. Automatic conflict is labeled to authors from the same institution, or authors that have co-authored either ORCs or ERCs.
  
