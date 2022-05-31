@@ -67,8 +67,7 @@ Some disclaimers:
 
 An ORC is one which can be differenciated from the state of the art by itself. A work producing it's own hypothesis. 
 
-Each ORC has a reliabilty and relevance score, which are initialized to a basic value when the contribution is first made public. The basic reliability and relevance comes from the ORC authors', as a commitment to the work. This is returned to their correponding owners as the ORC gains it's own reliability (reviews, replications and reproductions) and relevance (citations, dissemination) from other sources and reachesthe baseline point. Good reviews by confident and expert authors will increase the ORC reliability, up to a certain threshold. To get beyond that an ORC needs to be replicated and/or reproduced at least once by a public and non-conflicting author. 
-Citations from third-party, non-conflicting reliable and relevant papers provide relevance. Liked dissemination works linked to the ORC also provide relevance.
+Each ORC has a reliabilty and relevance score, which are initialized to a basic value when the contribution is first made public. The basic reliability and relevance comes from the ORC authors', as a commitment to the work. This is returned to their correponding owners as the ORC gains it's own reliability (reviews, replications and reproductions) and relevance (citations, dissemination) from other sources and reaches the baseline point. Good reviews by confident and expert authors will increase the ORC reliability, up to a certain threshold. To get beyond that an ORC needs to be replicated and/or reproduced at least once by a public and non-conflicting author. Citations from third-party, non-conflicting reliable and relevant papers provide relevance. Liked dissemination works linked to the ORC also provide relevance.
 * Relevance and reliability gain follows a sigmoid, starting slow, peak gradient at the middle, and asymptoting to a maximum.
 * Initial reliability/relevance of an ORC: Each author of the ORC must commit 1/ACR of it's own reliability/relevance to the ORC. If one or more authors do not have enough uncommited reliability/relevance, the ORC cannot be made public.
 
@@ -112,7 +111,9 @@ These contributions make accessible the content of an ORC. It can be externally 
 
 #### Authors
 
-Authors have a reliability, a relevance, and a list of authored contributions. Author gain their reliability and relevance through their contributions (either ORC or ERC). While ORC provide both reliability and contribution to their authors, ERC do no. Dissemination works provide relevance. Reliability is obtained from reviews, reproductions and replications and metareviews.
+Authors have a reliability, a relevance, and a list of authored contributions. Author gain their reliability and relevance through their contributions (either ORC or ERC). While ORC provide both reliability and contribution to their authors, ERC do no. Dissemination works provide relevance. Reliability is obtained from reviews, reproductions, replications and metareviews. However, producing ERC requires no reliability or relevance, while producing ORC does. Every time an author produces an ORC, a fixed portion (the ACR) of its relevance and reliability is committed to that ORC. Authors with more of these scores will contribute with more to their newly created ORC, and ORC from authors with high scores will have higher initial values.
+
+Once an ORC produces enough relevance and reliability through citations and related ERCs, the originally committed relevance and reliability is returned to the author. It is uncommitted. An author can only have ACR concurrent ORC with committed relevance and reliability. Since both metrics are computed separately, it is possible to have them commited on different ORC: An ORC may be self-relevant but still commited in reliability, and viceversa.
 
 Authors with no reliability or relevance (either because they just entered the system, or because they have it committed) cannot make ORCs. To gain reliability or relevance they can produce ERCs. ERCs made on ORCs related to their own work (e.g., ORCs that cite their own ORCs) provide additional relevance.
 
