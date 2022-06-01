@@ -52,28 +52,30 @@ Ok, so these are the problem. Seem like a lot. Let's see if we can find a few so
 
 ### A New Platform for Research
 
-The previously proposed solution is hard to implement in today's regime of private publishers and corporative venues. To implement all proposed solutions, we propose a new platform for research. In this system, there are two main types of contributions, original and enhancing ones. Additionally, there's authors, who can be attributed with either type of contributions. Public anonymity is optional and recommended.
+The previously proposed solution is hard to implement in today's regime of private publishers and corporative venues. To implement all proposed solutions, we propose a new platform for research. In this system, there are two main types of contributions, original and enhancing ones. Additionally, there's authors, who can be attributed with either type of contributions. There are two main indicators of quality, reliability and relevance, which are associated to original contributions and authors by inheritance. Public anonymity is optional and recommended.
 
 Some constants used later on:
 * Author commitment rate (ACR) in the order of 10.
 * Minimum open time (MOT) in the order of 1 year
-* Baseline point (is the initial reliability/relevance of the ORC
-)
 
 Some disclaimers:
-* This platform is considered with experimental research in mind. Things like replication or reproduction of work may not make sense in other contexts of science. It is easy to imagine the platform adapted to handle all types of work, as long as these can be developed under peer review.
+* This platform is considered with experimental research in mind. Things like replication or reproduction of work may not make sense in other contexts of science. That being said, suppressing these componens has minimal implications. The platform can be easily adapted to handle all types of work as long as these can be developed under peer review.
 
 #### Original Research Contributions (ORC)
 
 An ORC is one which can be differenciated from the state of the art by itself. A work producing it's own hypothesis. 
 
-Each ORC has a reliabilty and relevance score, which are initialized to a basic value when the contribution is first made public. The basic reliability and relevance comes from the ORC authors', as a commitment to the work. This is returned to their correponding owners as the ORC gains it's own reliability (reviews, replications and reproductions) and relevance (citations, dissemination) from other sources and reaches the baseline point. Good reviews by confident and expert authors will increase the ORC reliability, up to a certain threshold. To get beyond that an ORC needs to be replicated and/or reproduced at least once by a public and non-conflicting author. Citations from third-party, non-conflicting reliable and relevant papers provide relevance. Liked dissemination works linked to the ORC also provide relevance.
-* Relevance and reliability gain follows a sigmoid, starting slow, peak gradient at the middle, and asymptoting to a maximum.
-* Initial reliability/relevance of an ORC: Each author of the ORC must commit 1/ACR of it's own reliability/relevance to the ORC. If one or more authors do not have enough uncommited reliability/relevance, the ORC cannot be made public.
+Each ORC has a reliabilty and relevance score, which are initialized to a basic value when the contribution is first made public. The basic reliability and relevance comes from the ORC authors', as a commitment to the work, and defines a baseline point. This is returned to their correponding owners as the ORC gains it's own reliability (reviews, replications and reproductions) and relevance (citations, dissemination) from other sources, once this reaches the same baseline value. Good reviews by confident and expert authors will increase the ORC reliability, up to a certain threshold. To get beyond that an ORC needs to be replicated and/or reproduced at least once by a public and non-conflicting author. Citations from third-party, non-conflicting reliable and relevant papers provide relevance. Liked dissemination works linked to the ORC also provide relevance.
 
-An ORC has set of authors, public or private, each with a percentual contribution to the work. This is added individually to the platform, iterating until unanymous agreement. Reliability and relevance produced by the ORC is split among authors accordingly.
+* Relevance and reliability gains by ORCs follows a sigmoid, starting slow (e.g., first citations add little relevance), peak gradient at the middle, and asymptoting to a maximum relevance and realiability.
+* Initial reliability/relevance of an ORC: Each author of the ORC must commit 1/ACR of it's own reliability/relevance to the ORC. If one or more authors do not have enough uncommited reliability/relevance (i.e., they have ACR OCRs which have not yet baselined, and not enough ERC contributions), the ORC cannot be published.
+
+An ORC has set of authors, public or private, each with a percentual contribution to the work. This is validated individually and anonymously within the platform. Reliability and relevance produced by the ORC is split among authors accordingly.
 
 An ORC can be open or closed. When submitted, it is open, and it will remain so for MOT time. Beyond that point, the ORC authors can decide to close it at any time. When closed, an ORC can no longer receive reviews, and can no longer be modified. Instead, it can receive commentary regarding its historical perspective. Once closed it cannot be reopened. 
+
+![Hierarchy of concepts]({{site.baseurl}}/assets/img/scientific_platform/ORC-ERC_Class diagram.jpg)
+
 
 #### Enhancing Research Contributions
 
