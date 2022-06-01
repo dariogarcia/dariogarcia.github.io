@@ -57,7 +57,7 @@ The previously proposed solution is hard to implement in today's regime of priva
 Some constants used later on:
 * Author commitment rate (ACR) in the order of 10.
 * Minimum open time (MOT) in the order of 1 year
-
+* Max Carreer Influence (MCI) in the order of 15% of the sigmoid.
 Some disclaimers:
 * This platform is considered with experimental research in mind. Things like replication or reproduction of work may not make sense in other contexts of science. That being said, suppressing these componens has minimal implications. The platform can be easily adapted to handle all types of work as long as these can be developed under peer review.
 
@@ -68,14 +68,14 @@ An ORC is one which can be differenciated from the state of the art by itself. A
 Each ORC has a reliabilty and relevance score, which are initialized to a basic value when the contribution is first made public. The basic reliability and relevance comes from the ORC authors', as a commitment to the work, and defines a baseline point. This is returned to their correponding owners as the ORC gains it's own reliability (reviews, replications and reproductions) and relevance (citations, dissemination) from other sources, once this reaches the same baseline value. Good reviews by confident and expert authors will increase the ORC reliability, up to a certain threshold. To get beyond that an ORC needs to be replicated and/or reproduced at least once by a public and non-conflicting author. Citations from third-party, non-conflicting reliable and relevant papers provide relevance. Liked dissemination works linked to the ORC also provide relevance.
 
 * Relevance and reliability gains by ORCs follows a sigmoid, starting slow (e.g., first citations add little relevance), peak gradient at the middle, and asymptoting to a maximum relevance and realiability.
-* Initial reliability/relevance of an ORC: Each author of the ORC must commit 1/ACR of it's own reliability/relevance to the ORC. If one or more authors do not have enough uncommited reliability/relevance (i.e., they have ACR OCRs which have not yet baselined, and not enough ERC contributions), the ORC cannot be published.
+* Initial reliability of an ORC: Each author of the ORC must commit 1/ACR of it's own reliability to the ORC. If one or more authors do not have enough uncommited reliability (i.e., they have ACR OCRs which have not yet baselined, and not enough ERC contributions), the ORC cannot be published. 
+* Initial relevance of an ORC: Each author of the ORC contributes with 1/ACR of its own relevance. Relevance need not to be committed.
+* Both initial reliability and relevance are capped to a max value (MCI).
 
-An ORC has set of authors, public or private, each with a percentual contribution to the work. This is validated individually and anonymously within the platform. Reliability and relevance produced by the ORC is split among authors accordingly.
-
-An ORC can be open or closed. When submitted, it is open, and it will remain so for MOT time. Beyond that point, the ORC authors can decide to close it at any time. When closed, an ORC can no longer receive reviews, and can no longer be modified. Instead, it can receive commentary regarding its historical perspective. Once closed it cannot be reopened. 
+An ORC has set of authors, public or private, each with a percentual contribution to the work. This is validated individually and anonymously within the platform. Reliability and relevance produced by the ORC is split among authors accordingly. An ORC can be open or closed. When submitted, it is open, and it will remain so for MOT time. Beyond that point, the ORC authors can decide to close it at any time. When closed, an ORC can no longer receive reviews, and can no longer be modified. Instead, it can receive commentary regarding its historical perspective. Once closed it cannot be reopened. 
 
 ![Hierarchy of concepts]({{site.baseurl}}/assets/img/scientific_platform/ORC-ERC_Class diagram.jpg)
-
+Diagram of the types of research contributions.
 
 #### Enhancing Research Contributions
 
@@ -113,7 +113,7 @@ These contributions make accessible the content of an ORC. It can be externally 
 
 #### Authors
 
-Authors have a reliability, a relevance, and a list of authored contributions. Author gain their reliability and relevance through their contributions (either ORC or ERC). While ORC provide both reliability and contribution to their authors, ERC do no. Dissemination works provide relevance. Reliability is obtained from reviews, reproductions, replications and metareviews. However, producing ERC requires no reliability or relevance, while producing ORC does. Every time an author produces an ORC, a fixed portion (the ACR) of its relevance and reliability is committed to that ORC. Authors with more of these scores will contribute with more to their newly created ORC, and ORC from authors with high scores will have higher initial values.
+Authors have a reliability, a relevance, and a list of authored contributions. Author gain their reliability and relevance through their contributions (either ORC or ERC). While ORC provide both reliability and contribution to their authors, ERC do no. Dissemination works provide relevance. Reliability is obtained from reviews, reproductions, replications and metareviews. However, producing ERC requires no reliability or relevance, while producing ORC does. Every time an author produces an ORC, a fixed portion (the ACR) of its relevance and reliability is used to initialize those of the ORC. Authors with more of these scores will contribute with more to their newly created ORC, and ORC from authors with high scores will have higher initial values.
 
 Once an ORC produces enough relevance and reliability through citations and related ERCs, the originally committed relevance and reliability is returned to the author. It is uncommitted. An author can only have ACR concurrent ORC with committed relevance and reliability. Since both metrics are computed separately, it is possible to have them commited on different ORC: An ORC may be self-relevant but still commited in reliability, and viceversa.
 
@@ -131,6 +131,9 @@ Authors have the right to flag ORCs and ERCs for a series of malpractices, which
 * hidden conflict of interest
 
 Authors are encouraged to evaluate and take into account the enhancing contributions to their work, using it to improve their own research. Updated versions of original contributions can be made in collaboration with the enhancing contribution author's, and increase the relevance and reliability of the original work, based on the community interest in the enhancing contribution. Authors can request reviews of their work to specific users. Typically, those involved in the same field, or being cited by the original work.
+
+![Map of relevance and reliability flow]({{site.baseurl}}/assets/img/scientific_platform/Relevance-Reliability_flow.jpg)
+Illustration on all the relations in which relevance and reliability may be generated.
 
 #### Moderators
 
