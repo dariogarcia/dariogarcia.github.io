@@ -75,6 +75,7 @@ Each ORC has a reliabilty and relevance score, which are initialized to a basic 
 An ORC has set of authors, public or private, each with a percentual contribution to the work. This is validated individually and anonymously within the platform. Reliability and relevance produced by the ORC is split among authors accordingly. An ORC can be open or closed. When submitted, it is open, and it will remain so for MOT time. Beyond that point, the ORC authors can decide to close it at any time. When closed, an ORC can no longer receive reviews, and can no longer be modified. Instead, it can receive commentary regarding its historical perspective. Once closed it cannot be reopened. 
 
 ![Hierarchy of concepts]({{site.baseurl}}/assets/img/scientific_platform/ORC-ERC_Class diagram.jpg)
+
 Diagram of the types of research contributions.
 
 #### Enhancing Research Contributions
