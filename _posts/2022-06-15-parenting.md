@@ -3,7 +3,7 @@ layout: post
 title: What no one tells you about parenthood
 date: 2022-06-15 00:00:00 +0300
 description: A list of tips for future parents. Also cautionary tales, and realistic views of parenthood.
-img: parenting_pexels-phil-nguyen-1361766.jpg.jpg 
+img: parenting_pexels-phil-nguyen-1361766.jpg 
 tags: [Parenting, Tips]
 ---
 
