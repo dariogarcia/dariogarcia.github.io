@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NoCReAS - No to Concealed Real-time AI Support
+title: NoCReAS: No to Concealed Real-time AI Support
 date: 2022-07-01 00:00:00 +0300
 description: An initiative for the regulation of real-time AI language models, to restrict their use on human-human interactions.
 img: face_pexels-mohamed-abdelghaffar-771742.jpg 
