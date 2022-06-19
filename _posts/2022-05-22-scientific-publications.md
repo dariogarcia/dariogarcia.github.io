@@ -3,7 +3,7 @@ layout: post
 title: A new Platform for Science & Research
 date: 2022-05-14 00:00:00 +0300
 description: The process by which research gets published is severely flawed. The whole system is based on old principles, and obsolete in the face of new technology. We identify those problems, their solutions, and propose a new platform for science to organize it.
-img: face_pexels-mohamed-abdelghaffar-771742.jpg 
+img: research.jpg 
 tags: [Science, Research, Organization, Artificial Intelligence]
 ---
 
