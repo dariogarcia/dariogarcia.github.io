@@ -53,4 +53,6 @@ Welcome to my personal diffusion art gallery! All these artworks are made by me,
 &nbsp;
 ![Marlon Charlot]({{site.baseurl}}/assets/img/diffusion/marlon.png)   Marlon Charlot
 
-
+# Creepy series
+![Photons of Madness (1)]({{site.baseurl}}/assets/img/diffusion/lecter1.png) Photons of Madness (1)
+![Photons of Madness (1)]({{site.baseurl}}/assets/img/diffusion/lecter2.png) Photons of Madness (2)
