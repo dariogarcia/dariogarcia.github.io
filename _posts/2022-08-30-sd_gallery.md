@@ -62,10 +62,10 @@ Welcome to my personal diffusion art gallery! All these artworks are made by me,
 ![Alien on sofa 2]({{site.baseurl}}/assets/img/diffusion/alien_sofa3.png) Alien on sofa 2
 ![Alien on sofa 3]({{site.baseurl}}/assets/img/diffusion/alien_sofa2.png) Alien on sofa 3
 ![Alien on sofa 4]({{site.baseurl}}/assets/img/diffusion/alien_sofa4.png) Alien on sofa 4
-![Alien on sofa 5]({{site.baseurl}}/assets/img/diffusion/alien_sofa4.png) Alien on sofa 5
-![Alien on sofa 6]({{site.baseurl}}/assets/img/diffusion/alien_sofa4.png) Alien on sofa 6
-![Alien on sofa 7]({{site.baseurl}}/assets/img/diffusion/alien_sofa4.png) Alien on sofa 7
-![Alien on sofa 8]({{site.baseurl}}/assets/img/diffusion/alien_sofa4.png) Alien on sofa 8
+![Alien on sofa 5]({{site.baseurl}}/assets/img/diffusion/alien_sofa5.png) Alien on sofa 5
+![Alien on sofa 6]({{site.baseurl}}/assets/img/diffusion/alien_sofa6.png) Alien on sofa 6
+![Alien on sofa 7]({{site.baseurl}}/assets/img/diffusion/alien_sofa7.png) Alien on sofa 7
+![Alien on sofa 8]({{site.baseurl}}/assets/img/diffusion/alien_sofa8.png) Alien on sofa 8
 
 # Robot portraits series
 ![Robot portrait 1]({{site.baseurl}}/assets/img/diffusion/robot_portrait.png) Robot portrait (1)
