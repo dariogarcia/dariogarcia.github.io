@@ -107,13 +107,13 @@ Welcome to my personal diffusion art gallery! All these artworks are made by me,
 ![Dr Lecter at Overlook hotel 7]({{site.baseurl}}/assets/img/diffusion/redrum7.png) Dr. Lecter at Overlook hotel (7)
 ![Dr Lecter at Overlook hotel 8]({{site.baseurl}}/assets/img/diffusion/redrum8.png) Dr. Lecter at Overlook hotel (8)
 ![Dr Lecter at Overlook hotel 9]({{site.baseurl}}/assets/img/diffusion/redrum9.png) Dr. Lecter at Overlook hotel (9)
-![Dr Lecter at Overlook hotel 10]({{site.baseurl}}/assets/img/diffusion/redrum10.png) Dr. Lecter at Overlook hotel 10()
+![Dr Lecter at Overlook hotel 10]({{site.baseurl}}/assets/img/diffusion/redrum10.png) Dr. Lecter at Overlook hotel (10)
 ![Dr Lecter at Overlook hotel 11]({{site.baseurl}}/assets/img/diffusion/redrum11.png) Dr. Lecter at Overlook hotel (11)
 ![Dr Lecter at Overlook hotel 12]({{site.baseurl}}/assets/img/diffusion/redrum12.png) Dr. Lecter at Overlook hotel (12)
 
 # Horror series
 ![Dr Lecter at Overlook hotel Horror 1]({{site.baseurl}}/assets/img/diffusion/horror.png) Dr. Lecter at Overlook hotel horror (1)
-![Dr Lecter at Overlook hotel Horror 2]({{site.baseurl}}/assets/img/diffusion/horror2.png) Dr. Lecter at Overlook hotel horror  (2)
-![Dr Lecter at Overlook hotel Horror 3]({{site.baseurl}}/assets/img/diffusion/horror3.png) Dr. Lecter at Overlook hotel horror  (3)
-![Dr Lecter at Overlook hotel Horror 4]({{site.baseurl}}/assets/img/diffusion/horror4.png) Dr. Lecter at Overlook hotel horror  (4)
+![Dr Lecter at Overlook hotel Horror 2]({{site.baseurl}}/assets/img/diffusion/horror2.png) Dr. Lecter at Overlook hotel horror (2)
+![Dr Lecter at Overlook hotel Horror 3]({{site.baseurl}}/assets/img/diffusion/horror3.png) Dr. Lecter at Overlook hotel horror (3)
+![Dr Lecter at Overlook hotel Horror 4]({{site.baseurl}}/assets/img/diffusion/horror4.png) Dr. Lecter at Overlook hotel horror (4)
 
