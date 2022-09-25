@@ -8,9 +8,9 @@ tags: [Artificial Intelligence, Ethical & Trustworthy AI, AI Art, Stable Diffusi
 ---
 
 The initiative "[Better Image of AI](https://betterimagesofai.org/)" is focused on the visuals used to illustrate Artificial Intelligence in media. Certain undesirable trends exist today, which include:
-* Robotics and Antropocentrism (robots that look like people) 
-* Clear bias towards clear skin tones (aka white robots)
-* Objectification of the female body (aka white robots with boobs)
+* Robotics and Antropocentrism (robots that look like people, robot and human brains) 
+* Clear bias towards clear skin tones (white robots)
+* Objectification of the female body (white robots with boobs)
 * Religious implications (god-like finger touching)
 * Fearsome (evil AI, Terminator)
 
