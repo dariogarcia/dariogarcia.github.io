@@ -4,7 +4,7 @@ title: Gallery of images created with Diffusion
 date: 2022-08-30 00:00:00 +0300
 description: A gallery of the best images I have produced using stable diffusion.
 img: diffusion/gallery.png 
-tags: [Artificial Intelligence, Neural Network, Stable Diffusion, Art, Gallery]
+tags: [Artificial Intelligence, Neural Network, Stable Diffusion, AI Art, Gallery]
 ---
 
 Welcome to my personal diffusion art gallery! All these artworks are made by me, with the help of Stable Diffusion. I reserve all rights for these, but be sure to let me know if you want to use them :)
