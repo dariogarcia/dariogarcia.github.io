@@ -21,8 +21,8 @@ I made up a few prompts, and produced the following images, which are free to us
 
 A sphere is a perfect structure. It represents something that is at the limits of nature. Such as AI.
 
-| | |
-|:-------------------------:|:-------------------------:|
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
 |![Sphere AI (1)]({{site.baseurl}}/assets/img/better_images_ai/better.png) Sphere AI (1)|![Sphere AI (2)]({{site.baseurl}}/assets/img/better_images_ai/better2.png) Sphere AI (2)| ![Sphere AI (3)]({{site.baseurl}}/assets/img/better_images_ai/better10.png) Sphere AI (3)|
 |![Sphere AI (4)]({{site.baseurl}}/assets/img/better_images_ai/better11.png) Sphere AI (4)|![Sphere AI (5)]({{site.baseurl}}/assets/img/better_images_ai/better12.png) Sphere AI (5)|![Sphere AI (6)]({{site.baseurl}}/assets/img/better_images_ai/better13.png) Sphere AI (6)|
 |![Sphere AI (7)]({{site.baseurl}}/assets/img/better_images_ai/better16.png) Sphere AI (7)|![Sphere AI (8)]({{site.baseurl}}/assets/img/better_images_ai/better22.png) Sphere AI (8)|![Sphere AI (9)]({{site.baseurl}}/assets/img/better_images_ai/better9.png) Sphere AI (9)|
@@ -31,8 +31,8 @@ A sphere is a perfect structure. It represents something that is at the limits o
 
 Images and sounds is what fuels model AI. This representation of AI is built on cameras, microphones and speakers.
 
-| |
-|:-------------------------:|
+| | |
+|:-------------------------:|:-------------------------:|
 |![Sensor and Actuator AI (1)]({{site.baseurl}}/assets/img/better_images_ai/better3.png) Sensor and Actuator AI (1)|![Sensor and Actuator AI (2)]({{site.baseurl}}/assets/img/better_images_ai/better8.png) Sensor and Actuator AI (2)|
 |![Sensor and Actuator AI (3)]({{site.baseurl}}/assets/img/better_images_ai/better18.png) Sensor and Actuator AI (3)|![Sensor and Actuator AI (4)]({{site.baseurl}}/assets/img/better_images_ai/better24.png) Sensor and Actuator AI (4)|
 
