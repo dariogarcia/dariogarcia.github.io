@@ -62,10 +62,8 @@ prompt: silicon life form
 
 | | |
 |:-------------------------:|:-------------------------:|
-|![Integrated AI Circuit (1)]({{site.baseurl}}/assets/img/better_images_ai/better19.png) Integrated AI Circuit (1)|
-|![Integrated AI Circuit (2)]({{site.baseurl}}/assets/img/better_images_ai/better23.png) Integrated AI Circuit (2)|
-|![Integrated AI Circuit (3)]({{site.baseurl}}/assets/img/better_images_ai/better25.png) Integrated AI Circuit (3)|
-|![Integrated AI Circuit (4)]({{site.baseurl}}/assets/img/better_images_ai/better29.png) Integrated AI Circuit (4)|
+|![Integrated AI Circuit (1)]({{site.baseurl}}/assets/img/better_images_ai/better19.png) Integrated AI Circuit (1)|![Integrated AI Circuit (2)]({{site.baseurl}}/assets/img/better_images_ai/better23.png) Integrated AI Circuit (2)|
+|![Integrated AI Circuit (3)]({{site.baseurl}}/assets/img/better_images_ai/better25.png) Integrated AI Circuit (3)|![Integrated AI Circuit (4)]({{site.baseurl}}/assets/img/better_images_ai/better29.png) Integrated AI Circuit (4)|
 
 prompt: non-organic life form. integrated circuit
 
