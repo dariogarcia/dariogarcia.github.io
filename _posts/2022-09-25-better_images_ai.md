@@ -8,6 +8,7 @@ tags: [Artificial Intelligence, Ethical & Trustworthy AI, AI Art, Stable Diffusi
 ---
 
 The initiative "[Better Image of AI](https://betterimagesofai.org/)" is focused on the visuals used to illustrate Artificial Intelligence in media. Certain undesirable trends exist today, which include:
+
 * Robotics and Antropocentrism (robots that look like people, robot and human brains) 
 * Clear bias towards clear skin tones (white robots)
 * Objectification of the female body (white robots with boobs)
@@ -15,7 +16,7 @@ The initiative "[Better Image of AI](https://betterimagesofai.org/)" is focused 
 * Fearsome (evil AI, Terminator)
 
 Given the recent rise of diffusion models, we can use AI to generate better images of AI ;) 
-I made up a few prompts, and produced the following images, which are free to use (with attribution, pretty please).
+I made up a few prompts, and produced the following images, which are free to use under CC-BY license. Prompts for each category are included for your benefit.
 
 # Sphere AI
 
