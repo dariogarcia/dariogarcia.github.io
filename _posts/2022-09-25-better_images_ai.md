@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Original AI art for the Better Images of AI initiative
+title: AI art for the Better Images of AI initiative
 date: 2022-09-25 00:00:00 +0300
 description: A gallery with some images I have produced, inspired by the Better Image of AI initiative.
 img: better\_images\_ai/better19.png 
@@ -15,8 +15,8 @@ The initiative "[Better Image of AI](https://betterimagesofai.org/)" is focused 
 * Religious implications (god-like finger touching)
 * Fearsome (evil AI, Terminator)
 
-Given the recent rise of diffusion models, we can use AI to generate better images of AI ;) 
-I made up a few prompts, and produced the following images, which are free to use under CC-BY license. Prompts for each category are included for your benefit.
+Given the recent rise of diffusion models, we can use AI to generate better images of AI ;) Thanks to Stable Diffusion.
+Made up a few prompts, and produced the following images, which are free to use under CC-BY license. Prompts for each category are included for your benefit.
 
 # Sphere AI
 
