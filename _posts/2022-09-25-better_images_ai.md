@@ -28,6 +28,7 @@ I made up a few prompts, and produced the following images, which are free to us
 |![Sphere AI (5)]({{site.baseurl}}/assets/img/better_images_ai/better12.png) Sphere AI (5)|![Sphere AI (6)]({{site.baseurl}}/assets/img/better_images_ai/better13.png) Sphere AI (6)|
 |![Sphere AI (7)]({{site.baseurl}}/assets/img/better_images_ai/better16.png) Sphere AI (7)|![Sphere AI (8)]({{site.baseurl}}/assets/img/better_images_ai/better22.png) Sphere AI (8)|
 |![Sphere AI (9)]({{site.baseurl}}/assets/img/better_images_ai/better9.png) Sphere AI (9)|![Sphere AI (10)]({{site.baseurl}}/assets/img/better_images_ai/better28.png) Sphere AI (10)|
+prompt: floating metal sphere, shiny, surreal, with camera sight, microphone and speakers. non-organic
 
 # Sensor and Actuator AI
 
@@ -37,6 +38,7 @@ I made up a few prompts, and produced the following images, which are free to us
 |:-------------------------:|:-------------------------:|
 |![Sensor and Actuator AI (1)]({{site.baseurl}}/assets/img/better_images_ai/better3.png) Sensor and Actuator AI (1)|![Sensor and Actuator AI (2)]({{site.baseurl}}/assets/img/better_images_ai/better8.png) Sensor and Actuator AI (2)|
 |![Sensor and Actuator AI (3)]({{site.baseurl}}/assets/img/better_images_ai/better18.png) Sensor and Actuator AI (3)|![Sensor and Actuator AI (4)]({{site.baseurl}}/assets/img/better_images_ai/better24.png) Sensor and Actuator AI (4)|
+prompt: creature made of cameras, microphones and speakers
 
 
 # Synthetic life AI
@@ -47,6 +49,29 @@ I made up a few prompts, and produced the following images, which are free to us
 |:-------------------------:|:-------------------------:|
 |![Synthetic life AI (1)]({{site.baseurl}}/assets/img/better_images_ai/better4.png) Synthetic life AI (1)|![Synthetic life AI (2)]({{site.baseurl}}/assets/img/better_images_ai/better5.png) Synthetic life AI (2)|
 |![Synthetic life AI (3)]({{site.baseurl}}/assets/img/better_images_ai/better6.png) Synthetic life AI (3)|![Synthetic life AI (4)]({{site.baseurl}}/assets/img/better_images_ai/better14.png) Synthetic life AI (4)|
-|![Synthetic life AI (5)]({{site.baseurl}}/assets/img/better_images_ai/better17.png) Synthetic life AI (5)|![Synthetic life AI (6)]({{site.baseurl}}/assets/img/better_images_ai/better27.png) Synthetic life AI (6)|
+|![Synthetic life AI (5)]({{site.baseurl}}/assets/img/better_images_ai/better26.png) Synthetic life AI (5)|![Synthetic life AI (6)]({{site.baseurl}}/assets/img/better_images_ai/better27.png) Synthetic life AI (6)|
+prompt: silicon life form
 
 
+# Integrated AI Circuit
+
+### The arithmetico-logic unit. The calculus. The brain. Integrated circuits conveying how Artificial Intelligence really looks like.
+
+| | |
+|:-------------------------:|:-------------------------:|
+|![Integrated AI Circuit (1)]({{site.baseurl}}/assets/img/better_images_ai/better19.png) Integrated AI Circuit (1)|
+|![Integrated AI Circuit (2)]({{site.baseurl}}/assets/img/better_images_ai/better23.png) Integrated AI Circuit (2)|
+|![Integrated AI Circuit (3)]({{site.baseurl}}/assets/img/better_images_ai/better25.png) Integrated AI Circuit (3)|
+|![Integrated AI Circuit (4)]({{site.baseurl}}/assets/img/better_images_ai/better29.png) Integrated AI Circuit (4)|
+prompt: non-organic life form. integrated circuit
+
+
+# Light Network AI
+
+### An interconnection of collaborative nodes. A flow of energy through a complex system. Networks of light illuminating Artificial Intelligence.
+
+
+|![Light Network AI(1)]({{site.baseurl}}/assets/img/better_images_ai/better7.png) Light Network AI (1)|![Light Network AI(2)]({{site.baseurl}}/assets/img/better_images_ai/better15.png) Light Network AI (2)|
+|![Light Network AI(3)]({{site.baseurl}}/assets/img/better_images_ai/better20.png) Light Network AI (3)|![Light Network AI(4)]({{site.baseurl}}/assets/img/better_images_ai/better21.png) Light Network AI (4)|
+|![Light Network AI(5)]({{site.baseurl}}/assets/img/better_images_ai/better30.png) Light Network AI (5)|![Light Network AI(6)]({{site.baseurl}}/assets/img/better_images_ai/better17.png) Light Network AI (6)|
+prompt: network of light. electricity an information flow. whimsical. 
