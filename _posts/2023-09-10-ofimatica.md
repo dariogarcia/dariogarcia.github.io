@@ -1,3 +1,4 @@
+---
 layout: post
 title: Inteligencia Artificial, la nueva ofimática
 date: 2023-09-10 00:00:00 +0300
